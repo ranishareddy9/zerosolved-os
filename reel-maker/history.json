@@ -63,7 +63,12 @@
       "slug": "the-vet-bill-sticker-shock",
       "title": "Unscheduled veterinary fee shock",
       "leadAudience": "founders",
-      "video": "output/video/zs-0036-2026-11-15.mp4"
+      "video": "output/video/zs-0036-2026-11-15.mp4",
+      "instagram": {
+        "metricoolPostId": 428951207,
+        "scheduledFor": "2026-11-15T20:26:00+05:30",
+        "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=8006902&openWithPostUuid=-5270915256296452261"
+      }
     }
   ]
 }
