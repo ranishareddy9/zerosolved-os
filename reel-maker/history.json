@@ -55,6 +55,15 @@
         "scheduledFor": "2026-11-14T20:22:00+05:30",
         "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=8006902&openWithPostUuid=-6658199407191832477"
       }
+    },
+    {
+      "date": "2026-11-15",
+      "mode": "library",
+      "caseId": "ZS-0036",
+      "slug": "the-vet-bill-sticker-shock",
+      "title": "Unscheduled veterinary fee shock",
+      "leadAudience": "founders",
+      "video": "output/video/zs-0036-2026-11-15.mp4"
     }
   ]
 }
