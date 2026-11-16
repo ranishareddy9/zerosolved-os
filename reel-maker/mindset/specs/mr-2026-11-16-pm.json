@@ -1,0 +1,27 @@
+{
+  "id": "mr-2026-11-16-pm",
+  "type": "reel",
+  "kicker": "builder notes · overthinker vs tester",
+  "title": "Two ways to find [lime]what works.[/lime]",
+  "lanes": [
+    {
+      "label": "overthinker",
+      "sub": "plans more",
+      "motion": "stall",
+      "object": "bricks",
+      "color": "orange"
+    },
+    {
+      "label": "tester",
+      "sub": "tries small",
+      "motion": "steady",
+      "object": "bricks",
+      "color": "lime"
+    }
+  ],
+  "punchline": "A small [lime]test[/lime] answers what a plan can’t.",
+  "caption": "Planning forever answers nothing. A small test answers what a plan can't.\n\nStop guessing. Start solving.\nExplore Zerosolved.com →\n\n#buildinpublic #startupideas #founders #studentprojects #zerosolved",
+  "music": {
+    "seed": 7319
+  }
+}
