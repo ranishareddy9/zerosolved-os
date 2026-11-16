@@ -1,0 +1,7 @@
+{ "id": "mp-2026-11-16-x1101", "type": "post", "variant": "equation", "case": "ZS-0554",
+  "sourceFile": "sources/mindset-zs-0554-2026-11-16.txt",
+  "footnote": "ZS-0554 · zero score 72 · verified 2026-09-07",
+  "kicker": "case file · software & dev tools",
+  "terms": [ {"word": "ask", "label": "user"}, {"op": "+"}, {"word": "quiet", "label": "team"}, {"op": "="}, {"word": "[lime]doubt[/lime]", "label": "result"} ],
+  "line": "Answer the request. Keep the [lime]trust.[/lime]",
+  "caption": "Unanswered feature requests erode trust between users and software teams. Tracking them is the gap. Case ZS-0554.\n\nStop guessing. Start solving.\nExplore Zerosolved.com →\n\n#buildinpublic #saas #productmanagement #founders #zerosolved" }
