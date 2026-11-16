@@ -1,0 +1,13 @@
+{
+  "id": "mr-2026-11-16-am",
+  "type": "reel",
+  "kicker": "builder notes · guesser vs solver",
+  "title": "Two ways to pick [lime]what to build.[/lime]",
+  "lanes": [
+    { "label": "guesser", "sub": "builds first", "motion": "restart", "object": "bricks", "color": "orange" },
+    { "label": "solver", "sub": "asks first", "motion": "steady", "object": "bricks", "color": "lime" }
+  ],
+  "punchline": "Same effort. A [lime]real problem[/lime] underneath.",
+  "caption": "Guessing means rebuilding from the first brick. Starting from a researched problem means the wall keeps rising.\n\nStop guessing. Start solving.\nExplore Zerosolved.com →\n\n#buildinpublic #startupideas #founders #studentprojects #zerosolved",
+  "music": { "seed": 4127 }
+}

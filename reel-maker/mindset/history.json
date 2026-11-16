@@ -1,4 +1,24 @@
 {
   "note": "Log of mindset reels and posts. The Mindset posts routine reads this to avoid repeating a concept or line. Newest last.",
-  "runs": []
+  "runs": [
+    {
+      "date": "2026-11-16",
+      "slot": "am",
+      "reel": {
+        "id": "mr-2026-11-16-am",
+        "left": "guesser",
+        "right": "solver",
+        "object": "bricks",
+        "title": "Two ways to pick [lime]what to build.[/lime]",
+        "punchline": "Same effort. A [lime]real problem[/lime] underneath.",
+        "caption": "Guessing means rebuilding from the first brick. Starting from a researched problem means the wall keeps rising.\n\nStop guessing. Start solving.\nExplore Zerosolved.com →\n\n#buildinpublic #startupideas #founders #studentprojects #zerosolved"
+      },
+      "post": {
+        "id": "mp-2026-11-16-am",
+        "variant": "quote",
+        "text": "Ideas are cheap. [lime]Problems[/lime] are what people pay for.",
+        "caption": "A good idea is easy to find. A problem people feel is what makes it worth building.\n\nStop guessing. Start solving.\nExplore Zerosolved.com →\n\n#buildinpublic #startupideas #founders #studentprojects #zerosolved"
+      }
+    }
+  ]
 }
