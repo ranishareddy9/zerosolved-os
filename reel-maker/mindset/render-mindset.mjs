@@ -51,11 +51,31 @@ if (spec.type === "reel") {
     if (spec.line) texts.push(["line", spec.line]);
   } else need("text");
 }
+// Case mode: a piece built from one zerosolved.com case file. Numbers are allowed only when
+// they appear in that saved page. Without "case", the piece is motivational and carries no numbers.
+const caseMode = spec.case !== undefined;
+let sourceText = null;
+if (caseMode) {
+  if (!/^ZS-\d{4}$/.test(spec.case || "")) errors.push('case must look like "ZS-0270"');
+  if (typeof spec.sourceFile !== "string" || !/^sources\/[a-z0-9-]+\.txt$/.test(spec.sourceFile)) errors.push('case pieces need "sourceFile": "sources/<name>.txt" (the saved zerosolved.com page)');
+  else {
+    const f = path.join(RM, spec.sourceFile);
+    if (!fs.existsSync(f)) errors.push(`source file not found: ${spec.sourceFile}`);
+    else sourceText = fs.readFileSync(f, "utf8");
+  }
+  if (sourceText && spec.case && !sourceText.includes(spec.case)) errors.push(`${spec.case} does not appear in ${spec.sourceFile}`);
+  if (!spec.footnote) errors.push('case pieces need a "footnote" naming the case and source, e.g. "ZS-0270 · zerosolved.com · verified 2026-08-13"');
+}
+if (spec.footnote) texts.push(["footnote", spec.footnote]);
 if (spec.kicker) texts.push(["kicker", spec.kicker]);
 if (spec.caption) texts.push(["caption", spec.caption]);
+const inSource = (n) => sourceText && new RegExp(`(^|[^\\d])${n.replace(/[.,]/g, (c) => "\\" + c)}([^\\d]|$)`).test(sourceText);
 for (const [k, v] of texts) {
-  // The numbers rule: mindset pieces have no case file, so they carry no numbers at all.
-  if (/\d/.test(v)) errors.push(`${k}: no digits allowed in mindset pieces (numbers must come from a case file) — "${v.slice(0, 60)}"`);
+  // The numbers rule: every number must come from the case file, copied exactly.
+  if (/\d/.test(v)) {
+    if (!caseMode) errors.push(`${k}: no digits allowed in motivational pieces (numbers must come from a case file) — "${v.slice(0, 60)}"`);
+    else for (const n of v.match(/\d(?:[\d,.]*\d)?/g)) if (!inSource(n)) errors.push(`${k}: "${n}" is not in ${spec.sourceFile} — copy numbers exactly from the case file or leave them out`);
+  }
   if (/!/.test(v)) errors.push(`${k}: no exclamation marks (brand voice)`);
   if (/ZeroSolved|Zero Solved|ZEROSOLVED/.test(v)) errors.push(`${k}: write the name as "Zerosolved"`);
   const lime = (v.match(/\[lime\]/g) || []).length;

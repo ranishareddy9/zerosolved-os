@@ -156,6 +156,7 @@
     el.head.style.opacity = (fadeIn(t, 0.2, 0.6) * main).toFixed(3);
     el.head.style.transform = `translateY(${(14 * (1 - fadeIn(t, 0.2, 0.6))).toFixed(1)}px)`;
     el.labels.forEach((n, i) => { n.style.opacity = (fadeIn(t, 0.7 + i * 0.25, 0.6) * main).toFixed(3); });
+    if (el.foot) el.foot.style.opacity = (0.9 * fadeIn(t, 1.0, 0.6) * main).toFixed(3);
     const pk = fadeIn(t, PUNCH, 0.7);
     el.punch.style.opacity = (pk * main).toFixed(3);
     el.punch.style.transform = `translateY(${(16 * (1 - pk)).toFixed(1)}px)`;
@@ -185,6 +186,7 @@
       return n;
     });
     el.punch = div("t punch"); el.punch.style.top = "1340px"; rich(el.punch, spec.punchline);
+    if (spec.footnote) { el.foot = div("t foot"); el.foot.style.top = "1516px"; el.foot.textContent = spec.footnote; }
     el.end = div("t end"); el.end.style.top = "720px";
     const wm = div("wm", el.end); div("dot", wm); wm.appendChild(document.createTextNode("zerosolved"));
     rich(div("sign", el.end), "Stop guessing. [lime]Start solving.[/lime]");
@@ -210,6 +212,7 @@
     } else {
       const q = div("quote", box); q.style.marginTop = "34px"; rich(q, spec.text);
     }
+    if (spec.footnote) { const fn = div("t foot"); fn.style.top = "1200px"; fn.style.color = "#5b6472"; fn.textContent = spec.footnote; el.foot = fn; }
     const ft = div("t foot"); ft.style.top = "1262px"; ft.textContent = "Explore Zerosolved.com →";
     CHROME.style.opacity = "0.6";
     el.box = box;
@@ -238,10 +241,16 @@
       const tl = lines(el.head.querySelector(".title")); if (tl > 2) w.push(`title runs to ${tl} lines (max 2) — shorten it`);
       if (el.head.getBoundingClientRect().bottom > 670) w.push("title block runs into the lane labels — shorten the title");
       const pl = lines(el.punch); if (pl > 2) w.push(`punchline runs to ${pl} lines (max 2) — shorten it`);
+      if (el.foot) {
+        const fr = el.foot.getBoundingClientRect();
+        if (fr.top < el.punch.getBoundingClientRect().bottom + 8) w.push("footnote overlaps the punchline — shorten the punchline");
+        if (fr.bottom > safe.bottom || el.foot.scrollWidth > el.foot.clientWidth + 2 || fr.height > 40) w.push("footnote is too long — keep it to one short line");
+      }
       el.labels.forEach((n) => { if (n.scrollWidth > n.clientWidth + 2 || n.firstChild.textContent.length > 16) w.push(`label "${n.firstChild.textContent}" is too long (max 16 characters)`); });
     } else {
       const r = el.box.querySelector(".quote, .eq")?.getBoundingClientRect();
-      if (r && (r.top < 200 || r.bottom > 1180)) w.push("quote is too long for the post — shorten it");
+      if (r && (r.top < 200 || r.bottom > 1170)) w.push("quote is too long for the post — shorten it");
+      if (el.foot && el.foot.getBoundingClientRect().height > 40) w.push("footnote is too long — keep it to one short line");
       const q = el.box.querySelector(".quote"); if (q && lines(q) > 5) w.push(`quote runs to ${lines(q)} lines (max 5)`);
       const eq = el.box.querySelector(".eq"); if (eq && eq.scrollWidth > eq.clientWidth + 2) w.push("equation is too wide — use shorter words");
     }

@@ -46,8 +46,18 @@ or an equation:
 - **text:** one or two short sentences, max 5 lines, 1–3 lime words, ends with a period.
 - **equation:** 3 terms max, one short word each (no spaces), ops `+ − = ≠ × ÷ > <`, labels one word.
 
+## Two modes
+Each run makes a reel and a post in one mode, alternating with the previous history entry:
+- **motivational:** builder-mindset contrasts and lines from `ideas.md`. No digits at all.
+- **case:** both pieces are built from one real zerosolved.com case file. Add to each spec:
+  `"case": "ZS-0270"`, `"sourceFile": "sources/<file>.txt"` (the saved page, fetched with `node fetch-page.mjs <url> > sources/<file>.txt`), and a one-line `"footnote"` such as `"ZS-0270 · zero score 75 · verified 2026-08-13"`.
+  - Reel: title = the problem in one line; left lane = who bleeds, doing it the hard way (`restart`, `stall` or `burst`); right lane = the wedge (`steady` or `late`); punchline = what the wedge makes possible.
+  - Post: one line on the bleed or the gap, or a word equation.
+  - Numbers are allowed only if they appear in the saved case file, copied exactly (the renderer checks each one). Never round or combine.
+  - Kicker: `case file · <category in lowercase>`.
+
 ## Rules (the renderer enforces the first three)
-- **No digits anywhere** — title, labels, punchline, text, terms or caption. These pieces have no case file, and every number must come from a case file.
+- **Numbers only from a case file.** Motivational pieces have no digits anywhere (title, labels, punchline, text, terms, caption). Case pieces may use numbers that appear exactly in their saved `sourceFile`.
 - No exclamation marks. Write the name as "Zerosolved".
 - Sentence case with a period; 1–3 lime words on the key idea (opportunity), never decoration.
 - Original lines only: never reuse the reference creator's concepts or wording, and don't repeat anything in `mindset/history.json`.
