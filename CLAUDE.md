@@ -18,6 +18,8 @@ This is the working folder for **Zerosolved** (zerosolved.com) content: Instagra
 | `reel-maker/improvements.md` | Log of the weekly self-improvement run (kept, discarded, skipped, reverted) |
 | `.claude/protected-files.txt` | Files no agent may edit. The numbers rule can never be weakened. |
 | `.claude/skills/auto-*` | Skills the self-improvement run creates. The Reel Maker loads them before every reel. |
+| `reel-maker/mindset/` | **Mindset format**: 17 s pictogram comparison reels and one-line image posts (no numbers), made and posted at 8 AM and 8 PM IST by the "Mindset posts (cloud)" routine. Rules in its `README.md`, ideas in `ideas.md`, log in `history.json`. |
+| `reference/` | Owner's style references from another creator. Only `STYLE.md` is in git; the media stays on the owner's computer and is never committed or re-posted. |
 | `ZeroSolved-Promo-40s-1080x1920-v3.mp4` | **Reference promo video**: 40s, 9:16, 1080×1920, 30fps, music only. Match its style, but not its "966" count or its "ZeroSolved" casing. |
 | `logo.pdf` | Low-res raster crop of the wordmark. Reference only; rebuild the logo in finished work (see below). |
 | `Library.docx` | Screenshot of the Library's 18 categories (971 problems) |
