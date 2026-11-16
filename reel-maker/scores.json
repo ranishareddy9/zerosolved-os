@@ -158,6 +158,32 @@
       },
       "notes": "Founders cards scene has small sub text and a wrapped headline (density); bar labels are long and rows carry no per-line source; source is case-file-only so stat sourcing lacks named external sources.",
       "scoredAt": "2026-11-15T14:41:47.818Z"
+    },
+    {
+      "date": "2026-11-16",
+      "id": "zs-0265-2026-11-16",
+      "caseId": "ZS-0265",
+      "leadAudience": "students",
+      "scores": {
+        "hook": 5,
+        "one_idea": 4,
+        "density": 4,
+        "lime": 5,
+        "catch": 5,
+        "sources": 4,
+        "variety": 4
+      },
+      "total": 31,
+      "max": 35,
+      "previewWarnings": [],
+      "failed": [],
+      "version": {
+        "commit": "8b4dd04d6bcfefad678f764d2abd46a14c0be5b2",
+        "uncommittedRuleChanges": false,
+        "autoSkills": []
+      },
+      "notes": "Founders cards scene mixes four angles and is the densest; only one bar stat so sourcing is thin (verified date only, no named outside source).",
+      "scoredAt": "2026-11-16T14:41:41.519Z"
     }
   ]
 }

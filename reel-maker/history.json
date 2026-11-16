@@ -69,6 +69,15 @@
         "scheduledFor": "2026-11-15T20:26:00+05:30",
         "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=8006902&openWithPostUuid=-5270915256296452261"
       }
+    },
+    {
+      "date": "2026-11-16",
+      "mode": "library",
+      "caseId": "ZS-0265",
+      "slug": "the-interview-cheating-arms-race",
+      "title": "Remote technical interview verification",
+      "leadAudience": "students",
+      "video": "output/video/zs-0265-2026-11-16.mp4"
     }
   ]
 }
