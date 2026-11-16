@@ -77,7 +77,12 @@
       "slug": "the-interview-cheating-arms-race",
       "title": "Remote technical interview verification",
       "leadAudience": "students",
-      "video": "output/video/zs-0265-2026-11-16.mp4"
+      "video": "output/video/zs-0265-2026-11-16.mp4",
+      "instagram": {
+        "metricoolPostId": 430169224,
+        "scheduledFor": "2026-11-16T20:21:00+05:30",
+        "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=8006902&openWithPostUuid=-3489724910843376006"
+      }
     }
   ]
 }
