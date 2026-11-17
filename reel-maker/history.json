@@ -91,7 +91,12 @@
       "slug": "cloud-cost-spike-surprises",
       "title": "Unforeseen Cloud Spending Increases",
       "leadAudience": "founders",
-      "video": "output/video/zs-0547-2026-11-17.mp4"
+      "video": "output/video/zs-0547-2026-11-17.mp4",
+      "instagram": {
+        "metricoolPostId": 431547555,
+        "scheduledFor": "2026-11-17T20:22:00+05:30",
+        "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=8006902&openWithPostUuid=-2008632144609458607"
+      }
     }
   ]
 }
