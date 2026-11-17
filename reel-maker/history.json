@@ -83,6 +83,15 @@
         "scheduledFor": "2026-11-16T20:21:00+05:30",
         "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=8006902&openWithPostUuid=-3489724910843376006"
       }
+    },
+    {
+      "date": "2026-11-17",
+      "mode": "library",
+      "caseId": "ZS-0547",
+      "slug": "cloud-cost-spike-surprises",
+      "title": "Unforeseen Cloud Spending Increases",
+      "leadAudience": "founders",
+      "video": "output/video/zs-0547-2026-11-17.mp4"
     }
   ]
 }
