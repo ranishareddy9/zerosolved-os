@@ -115,6 +115,26 @@
           "scheduledFor": "2026-11-17T08:01:00+05:30"
         }
       }
+    },
+    {
+      "date": "2026-11-17",
+      "slot": "pm",
+      "mode": "motivational",
+      "reel": {
+        "id": "mr-2026-11-17-pm",
+        "left": "feature hoarder",
+        "right": "problem fixer",
+        "object": "bricks",
+        "title": "Two ways to use a [lime]week of building.[/lime]",
+        "punchline": "One fixed [lime]pain[/lime] beats a pile of features.",
+        "caption": "Adding features feels like progress. Fixing one real pain is what users notice.\n\nStop guessing. Start solving.\nExplore Zerosolved.com →\n\n#buildinpublic #startupideas #founders #studentprojects #zerosolved"
+      },
+      "post": {
+        "id": "mp-2026-11-17-pm",
+        "variant": "quote",
+        "text": "Nobody pays for clever. People pay for [lime]solved.[/lime]",
+        "caption": "Clever is a feature. A solved problem is what people pay for, so start from the problem.\n\nStop guessing. Start solving.\nExplore Zerosolved.com →\n\n#buildinpublic #startupideas #founders #studentprojects #zerosolved"
+      }
     }
   ]
 }
