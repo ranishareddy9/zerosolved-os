@@ -1,0 +1,13 @@
+{
+  "id": "mr-2026-11-17-pm",
+  "type": "reel",
+  "kicker": "builder notes · hoarder vs fixer",
+  "title": "Two ways to use a [lime]week of building.[/lime]",
+  "lanes": [
+    { "label": "feature hoarder", "sub": "adds more", "motion": "restart", "object": "bricks", "color": "orange" },
+    { "label": "problem fixer", "sub": "fixes one", "motion": "steady", "object": "bricks", "color": "lime" }
+  ],
+  "punchline": "One fixed [lime]pain[/lime] beats a pile of features.",
+  "caption": "Adding features feels like progress. Fixing one real pain is what users notice.\n\nStop guessing. Start solving.\nExplore Zerosolved.com →\n\n#buildinpublic #startupideas #founders #studentprojects #zerosolved",
+  "music": { "seed": 2468 }
+}

@@ -1,0 +1,5 @@
+# Reference media from another creator (@neuronvisuals): kept on this computer only.
+# Never commit or publish these files. STYLE.md is the shareable summary.
+*
+!.gitignore
+!STYLE.md

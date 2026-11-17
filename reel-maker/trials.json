@@ -1,0 +1,77 @@
+{
+  "note": "Preview-only test scores from self-improvement runs. Not real reels.",
+  "trials": [
+    {
+      "date": "2026-11-15",
+      "label": "verified-date on hook+cost cards",
+      "id": "trial-zs-0270-2026-11-12",
+      "baseId": "zs-0270-2026-11-12",
+      "baseTotal": 27,
+      "scores": {
+        "hook": 4,
+        "one_idea": 4,
+        "density": 4,
+        "lime": 4,
+        "catch": 4,
+        "sources": 4,
+        "variety": 4
+      },
+      "total": 28,
+      "previewWarnings": [],
+      "failed": [],
+      "version": {
+        "commit": "af80e3649957bbb90293d90f13af29a768c6eb83",
+        "uncommittedRuleChanges": false,
+        "autoSkills": []
+      }
+    },
+    {
+      "date": "2026-11-15",
+      "label": "verified-date on hook+cost cards",
+      "id": "trial-zs-0444-2026-11-13",
+      "baseId": "zs-0444-2026-11-13",
+      "baseTotal": 28,
+      "scores": {
+        "hook": 4,
+        "one_idea": 4,
+        "density": 4,
+        "lime": 5,
+        "catch": 4,
+        "sources": 4,
+        "variety": 4
+      },
+      "total": 29,
+      "previewWarnings": [],
+      "failed": [],
+      "version": {
+        "commit": "af80e3649957bbb90293d90f13af29a768c6eb83",
+        "uncommittedRuleChanges": false,
+        "autoSkills": []
+      }
+    },
+    {
+      "date": "2026-11-15",
+      "label": "verified-date on hook+cost cards",
+      "id": "trial-zs-0036-2026-11-15",
+      "baseId": "zs-0036-2026-11-15",
+      "baseTotal": 29,
+      "scores": {
+        "hook": 4,
+        "one_idea": 4,
+        "density": 3,
+        "lime": 5,
+        "catch": 5,
+        "sources": 4,
+        "variety": 4
+      },
+      "total": 29,
+      "previewWarnings": [],
+      "failed": [],
+      "version": {
+        "commit": "af80e3649957bbb90293d90f13af29a768c6eb83",
+        "uncommittedRuleChanges": false,
+        "autoSkills": []
+      }
+    }
+  ]
+}

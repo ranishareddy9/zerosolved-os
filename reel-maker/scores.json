@@ -53,7 +53,16 @@
       },
       "notes": "Baseline, scored 2026-11-11 from preview stills. Strong 4-word hook headline. Hook bars say 'modeled from public data · 6 sources graded' with no named source or year; the price card is a modeled researcher note. Founder cards' sub-lines are small.",
       "scoredAt": "2026-11-11T08:52:06.289Z",
-      "rescored": true
+      "rescored": true,
+      "instagram": {
+        "views": 22,
+        "avgWatchTimeSec": 2.069,
+        "pctWatched": null,
+        "shares": 0,
+        "saves": 0,
+        "postUrl": "https://www.instagram.com/reel/DfuUYIoBPe1/",
+        "fetchedAt": "2026-11-17T14:41:48.186Z"
+      }
     },
     {
       "date": "2026-11-12",
@@ -79,7 +88,16 @@
         "autoSkills": []
       },
       "notes": "Sources is lowest: stat bars name the source type but not a year on the hook card. Catch is shown only as a card in the late founders scene.",
-      "scoredAt": "2026-11-12T07:03:10.343Z"
+      "scoredAt": "2026-11-12T07:03:10.343Z",
+      "instagram": {
+        "views": 39,
+        "avgWatchTimeSec": 8.982,
+        "pctWatched": null,
+        "shares": 0,
+        "saves": 0,
+        "postUrl": "https://www.instagram.com/reel/DfofkX7MBs1/",
+        "fetchedAt": "2026-11-17T14:41:48.234Z"
+      }
     },
     {
       "date": "2026-11-13",
@@ -105,7 +123,129 @@
         "autoSkills": []
       },
       "notes": "Sources is lowest: cost and market figures are labelled modeled but carry no named source and year beyond the verified date. The catch card is readable but compact, and the founders cards grid is dense.",
-      "scoredAt": "2026-11-13T15:08:20.553Z"
+      "scoredAt": "2026-11-13T15:08:20.553Z",
+      "instagram": {
+        "views": 31,
+        "avgWatchTimeSec": 6.314,
+        "pctWatched": null,
+        "shares": 0,
+        "saves": 0,
+        "postUrl": "https://www.instagram.com/reel/DfsF4KHqXa0/",
+        "fetchedAt": "2026-11-17T14:41:48.293Z"
+      }
+    },
+    {
+      "date": "2026-11-14",
+      "id": "zs-0163-2026-11-14",
+      "caseId": "ZS-0163",
+      "leadAudience": "founders",
+      "scores": {
+        "hook": 4,
+        "one_idea": 5,
+        "density": 4,
+        "lime": 5,
+        "catch": 4,
+        "sources": 3,
+        "variety": 5
+      },
+      "total": 30,
+      "max": 35,
+      "previewWarnings": [],
+      "failed": [],
+      "version": {
+        "commit": "068003d3648f70a7554469a24e3a44d7cc8f9ae5",
+        "uncommittedRuleChanges": false,
+        "autoSkills": []
+      },
+      "notes": "Sources: bars cite the case file and verification date but no external named source or year because the case is modeled from public data. Hook title is a long card; catch card text is small.",
+      "scoredAt": "2026-11-14T14:42:02.069Z",
+      "instagram": {
+        "views": 76,
+        "avgWatchTimeSec": 2.535,
+        "pctWatched": null,
+        "shares": 0,
+        "saves": 0,
+        "postUrl": "https://www.instagram.com/reel/Dfudsowhfde/",
+        "fetchedAt": "2026-11-17T14:41:48.340Z"
+      }
+    },
+    {
+      "date": "2026-11-15",
+      "id": "zs-0036-2026-11-15",
+      "caseId": "ZS-0036",
+      "leadAudience": "founders",
+      "scores": {
+        "hook": 4,
+        "one_idea": 4,
+        "density": 3,
+        "lime": 5,
+        "catch": 5,
+        "sources": 4,
+        "variety": 4
+      },
+      "total": 29,
+      "max": 35,
+      "previewWarnings": [],
+      "failed": [],
+      "version": {
+        "commit": "ccca5d372abd3af4e87da06eb4b293fcdd278a1e",
+        "uncommittedRuleChanges": false,
+        "autoSkills": []
+      },
+      "notes": "Founders cards scene has small sub text and a wrapped headline (density); bar labels are long and rows carry no per-line source; source is case-file-only so stat sourcing lacks named external sources.",
+      "scoredAt": "2026-11-15T14:41:47.818Z"
+    },
+    {
+      "date": "2026-11-16",
+      "id": "zs-0265-2026-11-16",
+      "caseId": "ZS-0265",
+      "leadAudience": "students",
+      "scores": {
+        "hook": 5,
+        "one_idea": 4,
+        "density": 4,
+        "lime": 5,
+        "catch": 5,
+        "sources": 4,
+        "variety": 4
+      },
+      "total": 31,
+      "max": 35,
+      "previewWarnings": [],
+      "failed": [],
+      "version": {
+        "commit": "8b4dd04d6bcfefad678f764d2abd46a14c0be5b2",
+        "uncommittedRuleChanges": false,
+        "autoSkills": []
+      },
+      "notes": "Founders cards scene mixes four angles and is the densest; only one bar stat so sourcing is thin (verified date only, no named outside source).",
+      "scoredAt": "2026-11-16T14:41:41.519Z"
+    },
+    {
+      "date": "2026-11-17",
+      "id": "zs-0547-2026-11-17",
+      "caseId": "ZS-0547",
+      "leadAudience": "founders",
+      "scores": {
+        "hook": 4,
+        "one_idea": 4,
+        "density": 4,
+        "lime": 5,
+        "catch": 4,
+        "sources": 4,
+        "variety": 4
+      },
+      "total": 29,
+      "max": 35,
+      "previewWarnings": [],
+      "failed": [],
+      "version": {
+        "commit": "2e860bb3e393b6fe2981e54858379a6b0b1c7e23",
+        "uncommittedRuleChanges": false,
+        "autoSkills": []
+      },
+      "notes": "Hook headline is short but the card title is long; the catch card is the 6/10 weak dial rather than a true counter-case; stat sources shown as verified date only.",
+      "scoredAt": "2026-11-17T14:41:32.096Z"
     }
   ]
 }

@@ -36,3 +36,4 @@ Lasting feedback on Zerosolved reels. The **Reel Maker agent reads this file bef
 - 2026-11-09 · music · Keep the generated track. No voiceover and no third-party audio (owner).
 - 2026-11-09 · cta · The end-card CTA is always exactly "Explore Zerosolved.com →" (owner interview).
 - 2026-11-09 · voice · Write "Zerosolved" in all text and use 971 case files (owner).
+- 2026-11-15 · facts · Put the case file's "verified YYYY-MM-DD" (copied exactly) in the hook card's source line and in the foot of any cost or market card, next to "modeled from public data" and the case ID — "sources" was the lowest rubric criterion (3/5 on ZS-0270 and ZS-0444 without a year; 4/5 with one). Keep the source line short enough for one line (source: self-improve, trial avg 28.67 vs 28.0 on ZS-0270, ZS-0444, ZS-0036).

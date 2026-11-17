@@ -8,3 +8,4 @@ Rules: no protected file is ever edited (`.claude/protected-files.txt`), `reel-p
 
 | date | action | change | evidence | before | after | commit |
 |---|---|---|---|---|---|---|
+| 2026-11-15 | kept | reel-memory.md: verified date from the case file goes on the hook card source line and cost/market card foot | trial avg 28.67 vs 28.0 on ZS-0270, ZS-0444, ZS-0036; 0 failed checks | 28.0 | 28.67 | a863496 |

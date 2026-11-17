@@ -53,6 +53,62 @@
         "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=8006902&openWithPostUuid=3810033909105380090",
         "postUrl": "https://www.instagram.com/reel/DfsF4KHqXa0/"
       }
+    },
+    {
+      "date": "2026-11-14",
+      "mode": "library",
+      "caseId": "ZS-0163",
+      "slug": "the-delivery-app-dependency-trap",
+      "title": "Independent restaurant delivery commission trap",
+      "leadAudience": "founders",
+      "video": "output/video/zs-0163-2026-11-14.mp4",
+      "instagram": {
+        "metricoolPostId": 428057057,
+        "scheduledFor": "2026-11-14T20:22:00+05:30",
+        "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=8006902&openWithPostUuid=-6658199407191832477"
+      }
+    },
+    {
+      "date": "2026-11-15",
+      "mode": "library",
+      "caseId": "ZS-0036",
+      "slug": "the-vet-bill-sticker-shock",
+      "title": "Unscheduled veterinary fee shock",
+      "leadAudience": "founders",
+      "video": "output/video/zs-0036-2026-11-15.mp4",
+      "instagram": {
+        "metricoolPostId": 428951207,
+        "scheduledFor": "2026-11-15T20:26:00+05:30",
+        "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=8006902&openWithPostUuid=-5270915256296452261"
+      }
+    },
+    {
+      "date": "2026-11-16",
+      "mode": "library",
+      "caseId": "ZS-0265",
+      "slug": "the-interview-cheating-arms-race",
+      "title": "Remote technical interview verification",
+      "leadAudience": "students",
+      "video": "output/video/zs-0265-2026-11-16.mp4",
+      "instagram": {
+        "metricoolPostId": 430169224,
+        "scheduledFor": "2026-11-16T20:21:00+05:30",
+        "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=8006902&openWithPostUuid=-3489724910843376006"
+      }
+    },
+    {
+      "date": "2026-11-17",
+      "mode": "library",
+      "caseId": "ZS-0547",
+      "slug": "cloud-cost-spike-surprises",
+      "title": "Unforeseen Cloud Spending Increases",
+      "leadAudience": "founders",
+      "video": "output/video/zs-0547-2026-11-17.mp4",
+      "instagram": {
+        "metricoolPostId": 431547555,
+        "scheduledFor": "2026-11-17T20:22:00+05:30",
+        "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=8006902&openWithPostUuid=-2008632144609458607"
+      }
     }
   ]
 }

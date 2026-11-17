@@ -15,3 +15,11 @@ reel-maker/sources/today-check.txt
 
 # Self-improvement test specs (results are kept in reel-maker/trials.json)
 reel-maker/specs/trial-*.json
+
+# Mindset previews (regenerated)
+reel-maker/mindset/previews/
+
+# Reference media from other creators stays on the owner's computer (see reference/STYLE.md)
+reference/*
+!reference/STYLE.md
+!reference/.gitignore

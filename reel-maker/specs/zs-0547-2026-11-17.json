@@ -1,0 +1,76 @@
+{
+  "id": "zs-0547-2026-11-17",
+  "title": "Unforeseen Cloud Spending Increases",
+  "source": "https://zerosolved.com/problems/cloud-cost-spike-surprises (read 2026-11-17) — ZS-0547, verified 2026-09-07, 7 sources",
+  "palette": "lime-only",
+  "headerStat": "971 case files",
+  "music": { "bpm": 120, "seed": 547, "progression": ["Am","F","C","G"] },
+  "scenes": [
+    { "type": "intro", "duration": 1.5, "glow": "lime" },
+    {
+      "type": "today", "duration": 6, "glow": "orange",
+      "kicker": "library · software & dev tools",
+      "headline": "The cloud [bill surprise.]",
+      "card": {
+        "badge": "library · software & dev tools",
+        "meta": "ZS-0547 · Software & Dev Tools",
+        "title": "Unforeseen Cloud Spending Increases",
+        "score": 70,
+        "bars": [
+          { "label": "sources verified (7 sources, 0 flagged)", "value": 7, "color": "lime", "suffix": "/7" },
+          { "label": "the weak dial: market scores (out of 10)", "value": 6, "color": "lime", "suffix": "/10" }
+        ],
+        "source": "Zerosolved case file · modeled from public data · verified 2026-09-07"
+      }
+    },
+    {
+      "type": "rows", "duration": 6.5, "glow": "both",
+      "kicker": "inside the case file · zs-0547",
+      "headline": "Case in [30 seconds.]",
+      "rows": [
+        { "icon": "users", "color": "orange", "label": "who bleeds", "text": "A **VP of Engineering** at a **200-person** B2B SaaS company, owning the infrastructure budget." },
+        { "icon": "trending-down", "color": "orange", "label": "what it costs", "text": "**$45,000** average monthly unexpected cloud overruns." },
+        { "icon": "search", "color": "white", "labelColor": "white", "label": "the gap", "text": "Monitoring tools lack **real-time, granular** cost visibility." },
+        { "icon": "lightbulb", "color": "lime", "label": "the wedge", "text": "**Real-time anomaly detection** with automated optimization recommendations." }
+      ]
+    },
+    {
+      "type": "cards", "duration": 7, "glow": "both",
+      "kicker": "for founders · businesses",
+      "headline": "Pick a problem engineering teams will [actually pay] to fix.",
+      "cards": [
+        { "variant": "navy", "tag": "the wedge", "title": "Real-time cloud cost anomaly detection", "sub": "Built for mid-market SaaS companies.", "foot": "Software & Dev Tools · ZS-0547", "icon": "target" },
+        { "variant": "orange", "tag": "the catch", "title": "The weak dial: market scores 6 / 10", "sub": "Printed openly in module 02, not hidden.", "foot": "counter-evidence kept visible", "icon": "triangle-alert" },
+        { "variant": "light", "tag": "the market", "title": "$120m annual addressable market", "sub": "Cloud cost optimization tools, modeled from public data.", "foot": "modeled · verified 2026-09-07", "icon": "trending-down" },
+        { "variant": "lime", "tag": "the evidence", "title": "7 sources, 7 verified", "sub": "0 flagged openly.", "foot": "verified 2026-09-07 · ZS-0547", "icon": "shield-check" }
+      ],
+      "footer": "the hypothesis: **cut unexpected cloud spend by 30%**"
+    },
+    {
+      "type": "list", "duration": 7, "glow": "lime",
+      "kicker": "for students · gen z",
+      "headline": "Turn this case into a [career project.]",
+      "items": [
+        { "icon": "graduation-cap", "color": "lime", "tag": "final-year project", "title": "Cloud cost anomaly detector", "id": "ZS-0547" },
+        { "icon": "trophy", "color": "orange", "tag": "hackathon build", "title": "Spend-spike alerts for engineering teams", "id": "ZS-0547" },
+        { "icon": "flask-conical", "color": "violet", "tag": "research project", "title": "What drives cloud cost spikes", "id": "ZS-0547" },
+        { "icon": "folder-open", "color": "sky", "tag": "portfolio project", "title": "Cloud budget overrun dashboard", "id": "ZS-0547" }
+      ],
+      "benefits": [
+        { "icon": "check", "color": "lime", "text": "A real-world problem" },
+        { "icon": "shield-check", "color": "orange", "text": "Graded sources to cite" },
+        { "icon": "folder-open", "color": "lime", "text": "Stronger portfolio" },
+        { "icon": "briefcase", "color": "orange", "text": "A story for interviews" }
+      ],
+      "footer": "you walk away with → **proof, not another clone.**"
+    },
+    {
+      "type": "end", "duration": 6, "glow": "lime",
+      "headline": "Stop guessing.\n[Start solving.]",
+      "sub": "Find your next [problem to solve.]\nFor students, founders & side-builders.",
+      "cta": "Explore Zerosolved.com →",
+      "stats": "971 case files · 18 categories · 9 modules · sources graded a–c"
+    }
+  ],
+  "audienceOrder": "founders first — the case names a paying buyer (VP of Engineering at a 200-person B2B SaaS company) and a cost figure ($45,000 average monthly overruns)"
+}

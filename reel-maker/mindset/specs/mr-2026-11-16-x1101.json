@@ -1,0 +1,16 @@
+{
+  "id": "mr-2026-11-16-x1101",
+  "type": "reel",
+  "case": "ZS-0554",
+  "sourceFile": "sources/mindset-zs-0554-2026-11-16.txt",
+  "footnote": "ZS-0554 · zero score 72 · verified 2026-09-07",
+  "kicker": "case file · software & dev tools",
+  "title": "Feature requests vanish into a [lime]black hole.[/lime]",
+  "lanes": [
+    { "label": "engineer", "sub": "re-documents requests", "motion": "restart", "object": "stairs", "color": "orange" },
+    { "label": "one tracker", "sub": "keeps every request", "motion": "steady", "object": "stairs", "color": "lime" }
+  ],
+  "punchline": "One place for feedback. [lime]Nothing[/lime] gets lost.",
+  "caption": "Software teams lose track of feature requests, and engineers re-document them again and again. A central tracker keeps feedback in view. Case ZS-0554.\n\nStop guessing. Start solving.\nExplore Zerosolved.com →\n\n#buildinpublic #saas #productmanagement #founders #zerosolved",
+  "music": { "seed": 8841 }
+}
