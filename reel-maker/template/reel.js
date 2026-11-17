@@ -154,7 +154,8 @@
       const x = list.length === 2 ? (i === 0 ? -300 : 380) : 0;
       Object.assign(g.style, { width: size + "px", height: size + "px", left: `${(1080 - size) / 2 + x}px`, top: `${y - size / 2}px` });
       root.appendChild(g);
-      A(g, [{ opacity: 0, transform: "scale(.8)" }, { opacity: 0.85, transform: "scale(1)" }], t0, 0.9);
+      const cold = s.type === "intro" && s.coldOpen !== false;
+      A(g, [{ opacity: cold ? 0.85 : 0, transform: cold ? "scale(1)" : "scale(.8)" }, { opacity: 0.85, transform: "scale(1)" }], t0, 0.9);
       A(g, [{ transform: "scale(1) translate(0,0)" }, { transform: `scale(1.05) translate(${i ? -20 : 20}px, -24px)` }], t0 + 0.9, Math.max(0.1, t1 - t0 - 0.9), "ease-in-out");
     });
   }
@@ -178,6 +179,26 @@
   const B = {};
 
   B.intro = (root, s, t0, t1) => {
+    // Cold open: frame 0 is the Instagram grid cover, so it must never be black.
+    // Show the wordmark and the hook (the intro's "hook", else the next scene's
+    // headline) fully built from the very first frame. Set "coldOpen": false to
+    // get the old typed logo sting.
+    const nextScene = DATA.scenes[DATA.scenes.indexOf(s) + 1] || {};
+    const hookText = s.hook ?? nextScene.headline;
+    if (s.coldOpen !== false && hookText) {
+      const wrap = h("div", "introwrap cold");
+      const wm = h("div", "wordmark");
+      wm.append(h("span", "dot"), h("span", "", "zerosolved"));
+      const hook = h("div", "hook");
+      hookText.split("\n").forEach((line, li) => {
+        if (li) hook.appendChild(h("br"));
+        for (const seg of segments(line)) hook.appendChild(h("span", seg.cls, esc(seg.text)));
+      });
+      wrap.append(wm, hook);
+      root.appendChild(wrap);
+      A(hook, [{ transform: "scale(1)" }, { transform: "scale(1.03)" }], t0, Math.max(0.1, t1 - t0), "ease-in-out");
+      return;
+    }
     const wrap = h("div", "introwrap");
     const wm = h("div", "wordmark");
     const dot = h("span", "dot");
@@ -430,7 +451,7 @@
       const fn = B[s.type];
       if (!fn) throw new Error("Unknown scene type: " + s.type);
       fn(el, s, t0, t1);
-      A(el, [{ opacity: 0 }, { opacity: 1 }], t0, idx === 0 ? 0.01 : 0.3, "linear");
+      if (idx > 0) A(el, [{ opacity: 0 }, { opacity: 1 }], t0, 0.3, "linear");
       if (idx < data.scenes.length - 1) {
         A(el, [{ opacity: 1, filter: "blur(0px)", transform: "none" }, { opacity: 0, filter: "blur(6px)", transform: "translateY(-24px)" }], t1 - 0.4, 0.4, EASE_IN);
       }

@@ -144,27 +144,30 @@
 
   function drawReel(t) {
     const endK = fadeIn(t, END, 0.6), main = 1 - endK;
+    // Frame 0 is the Instagram grid cover: show the title, labels and lanes fully
+    // built from the first frame instead of fading in from black.
+    const ti = t + 2;
     let s = `<defs><linearGradient id="rf" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".16"/><stop offset=".6" stop-color="#fff" stop-opacity="0"/></linearGradient>
       <mask id="rm"><rect x="0" y="${G}" width="1080" height="260" fill="url(#rf)"/></mask>
       <linearGradient id="fl" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".18"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient></defs>`;
     let body = "";
     for (const L of lanes) body += objects(L, t) + figure(poseAt(L, t), t, 1);
-    const showLanes = fadeIn(t, 0.5, 0.8) * main;
+    const showLanes = fadeIn(ti, 0.5, 0.8) * main;
     s += `<g opacity="${showLanes.toFixed(3)}">${body}<rect x="60" y="${G}" width="960" height="2" fill="url(#fl)"/>
       <g mask="url(#rm)"><g transform="translate(0 ${2 * G}) scale(1 -1)">${body}</g></g></g>`;
     SVG.innerHTML = s;
-    el.head.style.opacity = (fadeIn(t, 0.2, 0.6) * main).toFixed(3);
-    el.head.style.transform = `translateY(${(14 * (1 - fadeIn(t, 0.2, 0.6))).toFixed(1)}px)`;
-    el.labels.forEach((n, i) => { n.style.opacity = (fadeIn(t, 0.7 + i * 0.25, 0.6) * main).toFixed(3); });
-    if (el.foot) el.foot.style.opacity = (0.9 * fadeIn(t, 1.0, 0.6) * main).toFixed(3);
+    el.head.style.opacity = (fadeIn(ti, 0.2, 0.6) * main).toFixed(3);
+    el.head.style.transform = `translateY(${(14 * (1 - fadeIn(ti, 0.2, 0.6))).toFixed(1)}px)`;
+    el.labels.forEach((n, i) => { n.style.opacity = (fadeIn(ti, 0.7 + i * 0.25, 0.6) * main).toFixed(3); });
+    if (el.foot) el.foot.style.opacity = (0.9 * fadeIn(ti, 1.0, 0.6) * main).toFixed(3);
     const pk = fadeIn(t, PUNCH, 0.7);
     el.punch.style.opacity = (pk * main).toFixed(3);
     el.punch.style.transform = `translateY(${(16 * (1 - pk)).toFixed(1)}px)`;
     const e2 = fadeIn(t, END + 0.3, 0.7);
     el.end.style.opacity = e2.toFixed(3);
     el.end.style.transform = `translateY(${(18 * (1 - e2)).toFixed(1)}px)`;
-    CHROME.style.opacity = (0.6 * fadeIn(t, 0.1, 0.6) * main).toFixed(3);
-    STAGE.style.opacity = Math.min(fadeIn(t, 0, 0.35), 1 - fadeIn(t, DUR - 0.5, 0.5)).toFixed(3);
+    CHROME.style.opacity = (0.6 * fadeIn(ti, 0.1, 0.6) * main).toFixed(3);
+    STAGE.style.opacity = Math.min(fadeIn(ti, 0, 0.35), 1 - fadeIn(t, DUR - 0.5, 0.5)).toFixed(3);
   }
 
   function initReel() {

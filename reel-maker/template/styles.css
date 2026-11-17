@@ -188,6 +188,9 @@ body { font-family: var(--sans); color: var(--white); -webkit-font-smoothing: an
 .introwrap { position: absolute; left: 0; right: 0; top: 820px; display: flex; flex-direction: column; align-items: center; }
 .introwrap .wordmark { font-size: 132px; }
 .introwrap .l1 { margin-top: 64px; font: 400 32px var(--mono); color: var(--off); min-height: 44px; }
+.introwrap.cold { top: 640px; left: 64px; right: 64px; }
+.introwrap.cold .wordmark { font-size: 64px; }
+.introwrap.cold .hook { margin-top: 90px; text-align: center; font: 700 112px/1.04 var(--display); letter-spacing: -0.04em; color: var(--white); }
 .introwrap .l2 { margin-top: 14px; font: 400 25px var(--mono); color: var(--muted); min-height: 34px; }
 
 /* ---------- palette: "lime-only" (no orange anywhere) ----------
