@@ -85,6 +85,28 @@
           "scheduledFor": "2026-11-16T20:01:00+05:30"
         }
       }
+    },
+    {
+      "date": "2026-11-17",
+      "slot": "am",
+      "mode": "case",
+      "case": "ZS-0231",
+      "reel": {
+        "id": "mr-2026-11-17-am",
+        "left": "engineer",
+        "right": "tool scanner",
+        "object": "stairs",
+        "title": "Orphan internal tools [lime]stall the work.[/lime]",
+        "punchline": "Know every tool. [lime]Alert owners[/lime] before it breaks.",
+        "caption": "Internal tools pile up with no owner, and a schema change leaves engineers reverse-engineering them. A passive scanner catalogs them and warns owners first. Case ZS-0231.\n\nStop guessing. Start solving.\nExplore Zerosolved.com →\n\n#buildinpublic #devtools #engineering #founders #zerosolved"
+      },
+      "post": {
+        "id": "mp-2026-11-17-am",
+        "variant": "equation",
+        "terms": "data + stray = stall",
+        "line": "Map the tools. Warn the [lime]owners.[/lime]",
+        "caption": "When a database schema changes, unowned internal tools stall critical operations. Cataloguing them first is the gap. Case ZS-0231.\n\nStop guessing. Start solving.\nExplore Zerosolved.com →\n\n#buildinpublic #devtools #engineering #founders #zerosolved"
+      }
     }
   ]
 }

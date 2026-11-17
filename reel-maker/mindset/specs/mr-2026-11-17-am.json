@@ -1,0 +1,16 @@
+{
+  "id": "mr-2026-11-17-am",
+  "type": "reel",
+  "case": "ZS-0231",
+  "sourceFile": "sources/mindset-zs-0231-2026-11-17.txt",
+  "footnote": "ZS-0231 · zero score 70 · verified 2026-08-13",
+  "kicker": "case file · software & dev tools",
+  "title": "Orphan internal tools [lime]stall the work.[/lime]",
+  "lanes": [
+    { "label": "engineer", "sub": "reverse-engineers old tools", "motion": "stall", "object": "stairs", "color": "orange" },
+    { "label": "tool scanner", "sub": "catalogs every tool", "motion": "steady", "object": "stairs", "color": "lime" }
+  ],
+  "punchline": "Know every tool. [lime]Alert owners[/lime] before it breaks.",
+  "caption": "Internal tools pile up with no owner, and a schema change leaves engineers reverse-engineering them. A passive scanner catalogs them and warns owners first. Case ZS-0231.\n\nStop guessing. Start solving.\nExplore Zerosolved.com →\n\n#buildinpublic #devtools #engineering #founders #zerosolved",
+  "music": { "seed": 5127 }
+}

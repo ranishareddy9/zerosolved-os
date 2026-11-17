@@ -1,0 +1,7 @@
+{ "id": "mp-2026-11-17-am", "type": "post", "variant": "equation", "case": "ZS-0231",
+  "sourceFile": "sources/mindset-zs-0231-2026-11-17.txt",
+  "footnote": "ZS-0231 · zero score 70 · verified 2026-08-13",
+  "kicker": "case file · software & dev tools",
+  "terms": [ {"word": "data", "label": "shift"}, {"op": "+"}, {"word": "stray", "label": "tool"}, {"op": "="}, {"word": "[lime]stall[/lime]", "label": "result"} ],
+  "line": "Map the tools. Warn the [lime]owners.[/lime]",
+  "caption": "When a database schema changes, unowned internal tools stall critical operations. Cataloguing them first is the gap. Case ZS-0231.\n\nStop guessing. Start solving.\nExplore Zerosolved.com →\n\n#buildinpublic #devtools #engineering #founders #zerosolved" }
