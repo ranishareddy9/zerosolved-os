@@ -117,7 +117,12 @@
       "slug": "the-ai-screening-black-box",
       "title": "Candidate resume screening audit log",
       "leadAudience": "students",
-      "video": "output/video/zs-0263-2026-11-18.mp4"
+      "video": "output/video/zs-0263-2026-11-18.mp4",
+      "instagram": {
+        "metricoolPostId": 432929732,
+        "scheduledFor": "2026-11-18T20:21:00+05:30",
+        "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=8006902&openWithPostUuid=-2611504122922252889"
+      }
     }
   ]
 }
