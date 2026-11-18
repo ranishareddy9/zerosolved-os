@@ -246,6 +246,32 @@
       },
       "notes": "Hook headline is short but the card title is long; the catch card is the 6/10 weak dial rather than a true counter-case; stat sources shown as verified date only.",
       "scoredAt": "2026-11-17T14:41:32.096Z"
+    },
+    {
+      "date": "2026-11-18",
+      "id": "zs-0263-2026-11-18",
+      "caseId": "ZS-0263",
+      "leadAudience": "students",
+      "scores": {
+        "hook": 5,
+        "one_idea": 5,
+        "density": 4,
+        "lime": 5,
+        "catch": 4,
+        "sources": 5,
+        "variety": 5
+      },
+      "total": 33,
+      "max": 35,
+      "previewWarnings": [],
+      "failed": [],
+      "version": {
+        "commit": "b6eff33337d7a4fbd8e4f071be44a068e74db9d1",
+        "uncommittedRuleChanges": false,
+        "autoSkills": []
+      },
+      "notes": "Founders scene is dense with four cards; the catch card is on screen but sits in the grid so it is easy to skim past.",
+      "scoredAt": "2026-11-18T14:41:31.603Z"
     }
   ]
 }

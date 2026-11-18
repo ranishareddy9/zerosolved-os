@@ -109,6 +109,15 @@
         "scheduledFor": "2026-11-17T20:22:00+05:30",
         "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=8006902&openWithPostUuid=-2008632144609458607"
       }
+    },
+    {
+      "date": "2026-11-18",
+      "mode": "library",
+      "caseId": "ZS-0263",
+      "slug": "the-ai-screening-black-box",
+      "title": "Candidate resume screening audit log",
+      "leadAudience": "students",
+      "video": "output/video/zs-0263-2026-11-18.mp4"
     }
   ]
 }
