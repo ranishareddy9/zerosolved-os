@@ -1,0 +1,53 @@
+SOURCE: https://zerosolved.com/problems/allergens-on-a-changing-menu
+FETCHED: 2026-11-18
+
+Allergens on dynamic menus — ZS-0171 | Zerosolved
+zerosolved The library Pricing FAQ
+01 · overview 1 / 9 zerosolved
+01 overview 02 problem strength 03 evidence 04 market 05 timing 06 customers 07 money & moat 08 playbook 09 live tracking ZS-0171 open · figures modeled from public data · every source graded in module 09 verified 2026-08-13 next check 2026-12-03 Home
+/
+Library
+/
+Food & Hospitality
+/
+Allergens on dynamic menus
+Allergens on dynamic menus
+70
+zero score
+open · figures modeled from public data · every source graded in module 09 70 / 100 — top the open files in food & hospitality 6 sources · 5✓ 1⚠ +41% YoY increase in hospitality compliance citations relate
+module 01 of 09 · overview
+Overview
+The whole case on one page.
+Independent restaurants and bistros rotating menus daily or weekly struggle to maintain compliant allergen matrices across ingredient substitutions. When suppliers swap wholesale brands without notice, updating manual allergen matrices before service routinely fails, exposing venues to severe legal liability and guest safety risks.
+researcher note · [modeled]
+A zero-admin ingredient-to-allergen parser integrated into kitchen prep notes eliminates compliance friction; downgraded if independent operators accept spreadsheet audits as legally sufficient without dedicated tooling.
+The case in 30 seconds
+who bleeds Head chefs and general managers at independent single-site and small-group (2-8 sites) hospitality venues with rotating weekly menus.
+the bleed Direct unrecovered labour and comped table costs per venue from manual allergen administration
+the gap Enterprise inventory ERPs demand exhaustive recipe itemisation unsuitable for daily specials, while digital QR menus rely on static manual checkboxes that lag kitchen prep reality.
+the wedge A daily WhatsApp-to-print allergen sheet generator that turns a photo or text of the daily prep board into an instant FOH matrix and POS-synced allergen table in 30 seconds.
+the endgame The real-time food composition data layer connecting wholesale supplier invoice line items directly to point-of-sale allergen disclosures across independent hospitality.
+the window 18-24 months, driven by statutory enforcement of allergen labelling laws (e.g. Natasha's Law, Owen's Law proposals, FASTER Act) and hospitality labour shortages.
+What a chatbot can't tell you
+a chat answer this case file
+sources unnamed, unopened, undated ✓ 6 sources, 5 human-verified, 1 flagged openly
+demand data vibes about a big market ✓ tracked search queries and community counts, re-counted each refresh
+freshness frozen at training cutoff ✓ re-verified on a schedule with the next check published
+primary research none ✓ our own operator poll, with n disclosed
+who is building it no idea ✓ an open claim registry — see who else is in
+accountability no counter-evidence ✓ counter-arguments, limitations and downgrade triggers stated
+execution a summary ✓ a 48-hour test, thresholds, and pre-registered kill conditions
+The pass buys the machine, not the format.
+← Previous Next module → Next · problem strength →
+living case file · continuously updated
+zerosolved The library
+Pricing
+FAQ
+Refund policy
+Terms & conditions
+Privacy
+Legal notice
+Contact
+After 6pm Founder
+secured by · · cards worldwide Zerosolved · Scratch Point AI Private Limited · India · Independent research for information only — verify before you build
+© 2026 Zerosolved · all case files verified by a human, one at a time

@@ -143,6 +143,28 @@
           "scheduledFor": "2026-11-17T20:01:00+05:30"
         }
       }
+    },
+    {
+      "date": "2026-11-18",
+      "slot": "am",
+      "mode": "case",
+      "case": "ZS-0171",
+      "reel": {
+        "id": "mr-2026-11-18-am",
+        "left": "head chef",
+        "right": "sheet generator",
+        "object": "stairs",
+        "title": "Allergen sheets can’t keep up with [lime]rotating menus.[/lime]",
+        "punchline": "Photo the board. Get the [lime]allergen sheet[/lime] fast.",
+        "caption": "Rotating menus break allergen sheets by hand: suppliers swap brands and the matrix lags the kitchen. A daily prep-board photo to allergen sheet is the wedge. Case ZS-0171.\n\nStop guessing. Start solving.\nExplore Zerosolved.com →\n\n#buildinpublic #foodtech #restaurants #founders #zerosolved"
+      },
+      "post": {
+        "id": "mp-2026-11-18-am",
+        "variant": "equation",
+        "terms": "menu + form = lag",
+        "line": "Read the prep board. Close the [lime]gap.[/lime]",
+        "caption": "Digital menus rely on static checkboxes that lag what the kitchen actually prepped. That lag is the gap. Case ZS-0171.\n\nStop guessing. Start solving.\nExplore Zerosolved.com →\n\n#buildinpublic #foodtech #restaurants #founders #zerosolved"
+      }
     }
   ]
 }
