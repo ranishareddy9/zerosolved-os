@@ -1,0 +1,49 @@
+SOURCE: https://zerosolved.com/problems/size-chart-returns-hemorrhage
+FETCHED: 2026-11-19
+
+Online size chart inaccuracies — ZS-0402 | Zerosolved
+zerosolved The library Pricing FAQ
+01 · overview 1 / 9 zerosolved
+01 overview 02 problem strength 03 evidence 04 market 05 timing 06 customers 07 money & moat 08 playbook 09 live tracking ZS-0402 open · figures modeled from public data · every source graded in module 09 verified 2026-09-07 next check 2026-12-06 Home
+/
+Library
+/
+Retail & E-commerce
+/
+Online size chart inaccuracies
+Online size chart inaccuracies
+75
+zero score
+open · figures modeled from public data · every source graded in module 09 sample distribution in this preview 7 sources · 6✓ 1⚠
+module 01 of 09 · overview
+Overview
+The whole case on one page.
+Online shoppers frequently receive clothing that doesn't fit due to inaccurate or confusing size charts. This leads to a high volume of returns, costing retailers significant amounts in shipping, processing, and lost sales. The persistence of this problem stems from the complexity of human body shapes and the limitations of static sizing information.
+researcher note · [modeled]
+A solution that dynamically matches customer measurements to clothing dimensions will drastically reduce e-commerce apparel returns.
+The case in 30 seconds
+who bleeds Online apparel shoppers (ages 18-65) who experience the frustration and cost of returning ill-fitting items.
+what it costs $15 billion — annual cost of e-commerce apparel returns
+why now Increased adoption of online apparel shopping has amplified the scale of this persistent issue.
+reachable market $700m — addressable market for size-matching solutions
+strength 75 / 100
+the weak dial wtp scores 6 / 10
+What a chatbot can't tell you
+a chat answer this case file
+sources unnamed, unopened, undated ✓ 7 sources, 6 verified, 1 flagged openly
+figures confident round numbers ✓ every figure shown with its equation and a sensitivity test
+the weak spot omitted ✓ printed in module 02 — wtp scores 6 / 10
+Read this as a decision-grade starting point. Module 09 shows every source and how it was checked.
+← Previous Next module → Next · problem strength →
+living case file · continuously updated
+zerosolved The library
+Pricing
+FAQ
+Refund policy
+Terms & conditions
+Privacy
+Legal notice
+Contact
+After 6pm Founder
+secured by · · cards worldwide Zerosolved · Scratch Point AI Private Limited · India · Independent research for information only — verify before you build
+© 2026 Zerosolved · all case files verified by a human, one at a time
