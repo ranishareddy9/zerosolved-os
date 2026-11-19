@@ -26,7 +26,11 @@
       },
       "notes": "Baseline, scored 2026-11-11 from preview stills. Hook headline 'Today's Problem.' is generic; problem readable from the card title. $10 trillion cost card names Gallup but no year. Founder cards' sub-lines are small.",
       "scoredAt": "2026-11-11T08:52:05.728Z",
-      "rescored": true
+      "rescored": true,
+      "instagram": {
+        "notPublished": true,
+        "checkedAt": "2026-11-19T14:42:13.911Z"
+      }
     },
     {
       "date": "2026-11-10",
@@ -193,7 +197,16 @@
         "autoSkills": []
       },
       "notes": "Founders cards scene has small sub text and a wrapped headline (density); bar labels are long and rows carry no per-line source; source is case-file-only so stat sourcing lacks named external sources.",
-      "scoredAt": "2026-11-15T14:41:47.818Z"
+      "scoredAt": "2026-11-15T14:41:47.818Z",
+      "instagram": {
+        "views": 14,
+        "avgWatchTimeSec": 3.706,
+        "pctWatched": null,
+        "shares": 0,
+        "saves": 0,
+        "postUrl": "https://www.instagram.com/reel/DfxC9krvaZ7/",
+        "fetchedAt": "2026-11-19T14:42:13.838Z"
+      }
     },
     {
       "date": "2026-11-16",
@@ -219,7 +232,16 @@
         "autoSkills": []
       },
       "notes": "Founders cards scene mixes four angles and is the densest; only one bar stat so sourcing is thin (verified date only, no named outside source).",
-      "scoredAt": "2026-11-16T14:41:41.519Z"
+      "scoredAt": "2026-11-16T14:41:41.519Z",
+      "instagram": {
+        "views": 11,
+        "avgWatchTimeSec": 1.74,
+        "pctWatched": null,
+        "shares": 0,
+        "saves": 0,
+        "postUrl": "https://www.instagram.com/reel/DfznKHYPA_k/",
+        "fetchedAt": "2026-11-19T14:42:13.871Z"
+      }
     },
     {
       "date": "2026-11-17",
@@ -272,6 +294,32 @@
       },
       "notes": "Founders scene is dense with four cards; the catch card is on screen but sits in the grid so it is easy to skim past.",
       "scoredAt": "2026-11-18T14:41:31.603Z"
+    },
+    {
+      "date": "2026-11-19",
+      "id": "zs-0159-2026-11-19",
+      "caseId": "ZS-0159",
+      "leadAudience": "students",
+      "scores": {
+        "hook": 4,
+        "one_idea": 4,
+        "density": 4,
+        "lime": 5,
+        "catch": 4,
+        "sources": 4,
+        "variety": 5
+      },
+      "total": 30,
+      "max": 35,
+      "previewWarnings": [],
+      "failed": [],
+      "version": {
+        "commit": "aaf7fecd3a3e86fb39298f9b8251c950c3b43f88",
+        "uncommittedRuleChanges": false,
+        "autoSkills": []
+      },
+      "notes": "Hook card carries a single stat bar and a long title; the catch card is small and sits in the last founders grid; stat card source line is small mono.",
+      "scoredAt": "2026-11-19T14:42:01.555Z"
     }
   ]
 }

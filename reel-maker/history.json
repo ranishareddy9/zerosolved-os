@@ -123,6 +123,15 @@
         "scheduledFor": "2026-11-18T20:21:00+05:30",
         "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=8006902&openWithPostUuid=-2611504122922252889"
       }
+    },
+    {
+      "date": "2026-11-19",
+      "mode": "library",
+      "caseId": "ZS-0159",
+      "slug": "the-internship-access-divide",
+      "title": "Early career internship access divide",
+      "leadAudience": "students",
+      "video": "output/video/zs-0159-2026-11-19.mp4"
     }
   ]
 }
