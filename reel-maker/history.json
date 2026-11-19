@@ -131,7 +131,12 @@
       "slug": "the-internship-access-divide",
       "title": "Early career internship access divide",
       "leadAudience": "students",
-      "video": "output/video/zs-0159-2026-11-19.mp4"
+      "video": "output/video/zs-0159-2026-11-19.mp4",
+      "instagram": {
+        "metricoolPostId": 434314245,
+        "scheduledFor": "2026-11-19T20:22:00+05:30",
+        "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=8006902&openWithPostUuid=2635222624353210005"
+      }
     }
   ]
 }
