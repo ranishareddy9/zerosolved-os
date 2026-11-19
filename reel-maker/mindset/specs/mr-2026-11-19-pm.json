@@ -1,0 +1,27 @@
+{
+  "id": "mr-2026-11-19-pm",
+  "type": "reel",
+  "kicker": "builder notes · collector vs hunter",
+  "title": "Two ways to find [lime]what to build.[/lime]",
+  "lanes": [
+    {
+      "label": "idea collector",
+      "sub": "saves ideas",
+      "motion": "idle",
+      "object": "stairs",
+      "color": "orange"
+    },
+    {
+      "label": "problem hunter",
+      "sub": "talks to users",
+      "motion": "steady",
+      "object": "stairs",
+      "color": "lime"
+    }
+  ],
+  "punchline": "Notes do not climb. [lime]Conversations[/lime] do.",
+  "caption": "Saving ideas feels like progress, but notes do not climb. Talking to people with the problem does.\n\nStop guessing. Start solving.\nExplore Zerosolved.com →\n\n#buildinpublic #startupideas #founders #studentprojects #zerosolved",
+  "music": {
+    "seed": 5821
+  }
+}
