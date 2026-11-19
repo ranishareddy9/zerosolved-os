@@ -230,6 +230,27 @@
           "scheduledFor": "2026-11-19T08:01:00+05:30"
         }
       }
+    },
+    {
+      "date": "2026-11-19",
+      "slot": "pm",
+      "mode": "motivational",
+      "reel": {
+        "id": "mr-2026-11-19-pm",
+        "left": "idea collector",
+        "right": "problem hunter",
+        "object": "stairs",
+        "title": "Two ways to find [lime]what to build.[/lime]",
+        "punchline": "Notes do not climb. [lime]Conversations[/lime] do.",
+        "caption": "Saving ideas feels like progress, but notes do not climb. Talking to people with the problem does.\n\nStop guessing. Start solving.\nExplore Zerosolved.com →\n\n#buildinpublic #startupideas #founders #studentprojects #zerosolved"
+      },
+      "post": {
+        "id": "mp-2026-11-19-pm",
+        "variant": "equation",
+        "terms": "pain + buyer = cash",
+        "line": "Start with the [lime]pain.[/lime] The buyer follows.",
+        "caption": "A real problem plus someone who pays is the simplest business there is.\n\nStop guessing. Start solving.\nExplore Zerosolved.com →\n\n#buildinpublic #startupideas #founders #studentprojects #zerosolved"
+      }
     }
   ]
 }
