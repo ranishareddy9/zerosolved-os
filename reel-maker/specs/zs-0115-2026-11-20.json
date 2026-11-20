@@ -1,0 +1,76 @@
+{
+  "id": "zs-0115-2026-11-20",
+  "title": "Invoice factoring hidden fee audit",
+  "source": "https://zerosolved.com/problems/invoice-factoring-opacity (read 2026-11-20) — ZS-0115, verified 2026-08-13, 6 sources",
+  "palette": "lime-only",
+  "headerStat": "971 case files",
+  "music": { "bpm": 120, "seed": 115, "progression": ["Am","F","C","G"] },
+  "audienceOrder": "founders first — the case names a paying buyer (B2B operators at £199–£499/month) and a price figure",
+  "scenes": [
+    { "type": "intro", "duration": 1.5, "glow": "lime" },
+    {
+      "type": "today", "duration": 6, "glow": "orange",
+      "kicker": "library · finance & insurance",
+      "headline": "The hidden [fee leak.]",
+      "card": {
+        "badge": "library · finance & insurance",
+        "meta": "ZS-0115 · Finance & Insurance",
+        "title": "Invoice factoring hidden fee audit",
+        "score": 72,
+        "bars": [
+          { "label": "search volume growth across B2B finance dispute and factoring queries", "value": 31, "color": "orange", "suffix": "%" },
+          { "label": "sources human-verified in this case file", "value": 5, "color": "lime", "suffix": " of 6" }
+        ],
+        "source": "Zerosolved case file · modeled from public data · verified 2026-08-13"
+      }
+    },
+    {
+      "type": "rows", "duration": 6.5, "glow": "both",
+      "kicker": "inside the case file · zs-0115",
+      "headline": "Case in [30 seconds.]",
+      "rows": [
+        { "icon": "users", "color": "orange", "label": "who bleeds", "text": "**Owner-managers** at £1M–£8M turnover firms in haulage, staffing and subcontracting." },
+        { "icon": "search", "color": "white", "labelColor": "white", "label": "the gap", "text": "Brokers compare **headline rates only**; accounting software never audits lender fee schedules." },
+        { "icon": "lightbulb", "color": "lime", "label": "the wedge", "text": "A **statement parser** that checks fees against the contract and outputs overcharge claims." },
+        { "icon": "calendar", "color": "lime", "label": "the window", "text": "**24-36 months**, as legacy factoring houses delay digital reporting." }
+      ]
+    },
+    {
+      "type": "cards", "duration": 7, "glow": "both",
+      "kicker": "for founders · businesses",
+      "headline": "A problem where operators [may pay] to audit their fees.",
+      "cards": [
+        { "variant": "navy", "tag": "the wedge", "title": "Statement reconciliation tool", "sub": "Parses PDF and CSV statements against fee rules.", "foot": "Finance & Insurance · ZS-0115", "icon": "target" },
+        { "variant": "orange", "tag": "the catch", "title": "Downgrades if lenders adopt open ledger APIs", "sub": "And standardised fee disclosures.", "foot": "counter-evidence kept visible", "icon": "triangle-alert" },
+        { "variant": "light", "tag": "the price signal", "title": "£199–£499/month", "sub": "For operators financing >£1.5M in receivables annually.", "foot": "modeled · verified 2026-08-13", "icon": "trending-up" },
+        { "variant": "lime", "tag": "the evidence", "title": "6 sources, 5 verified", "sub": "1 flagged openly.", "foot": "verified 2026-08-13 · ZS-0115", "icon": "shield-check" }
+      ],
+      "footer": "the window: **24-36 months**"
+    },
+    {
+      "type": "list", "duration": 7, "glow": "lime",
+      "kicker": "for students · gen z",
+      "headline": "Turn this case into a [career project.]",
+      "items": [
+        { "icon": "graduation-cap", "color": "lime", "tag": "final-year project", "title": "Factoring statement fee checker", "id": "ZS-0115" },
+        { "icon": "trophy", "color": "orange", "tag": "hackathon build", "title": "Contract fee-rule extractor", "id": "ZS-0115" },
+        { "icon": "flask-conical", "color": "violet", "tag": "research project", "title": "Why headline rates hide true cost", "id": "ZS-0115" },
+        { "icon": "folder-open", "color": "sky", "tag": "portfolio project", "title": "Overcharge claim notice generator", "id": "ZS-0115" }
+      ],
+      "benefits": [
+        { "icon": "check", "color": "lime", "text": "A real-world problem" },
+        { "icon": "shield-check", "color": "orange", "text": "Graded sources to cite" },
+        { "icon": "folder-open", "color": "lime", "text": "Stronger portfolio" },
+        { "icon": "briefcase", "color": "orange", "text": "A story for interviews" }
+      ],
+      "footer": "you walk away with → **proof, not another clone.**"
+    },
+    {
+      "type": "end", "duration": 6, "glow": "lime",
+      "headline": "Stop guessing.\n[Start solving.]",
+      "sub": "Find your next [problem to solve.]\nFor students, founders & side-builders.",
+      "cta": "Explore Zerosolved.com →",
+      "stats": "971 case files · 18 categories · 9 modules · sources graded a–c"
+    }
+  ]
+}

@@ -137,6 +137,15 @@
         "scheduledFor": "2026-11-19T20:22:00+05:30",
         "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=8006902&openWithPostUuid=2635222624353210005"
       }
+    },
+    {
+      "date": "2026-11-20",
+      "mode": "library",
+      "caseId": "ZS-0115",
+      "slug": "invoice-factoring-opacity",
+      "title": "Invoice factoring hidden fee audit",
+      "leadAudience": "founders",
+      "video": "output/video/zs-0115-2026-11-20.mp4"
     }
   ]
 }
