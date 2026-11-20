@@ -259,6 +259,27 @@
           "scheduledFor": "2026-11-19T20:01:00+05:30"
         }
       }
+    },
+    {
+      "date": "2026-11-20",
+      "slot": "am",
+      "mode": "case",
+      "case": "ZS-0172",
+      "reel": {
+        "id": "mr-2026-11-20-am",
+        "left": "caterer",
+        "right": "instant quote",
+        "object": "bricks",
+        "title": "Slow catering quotes [lime]lose the event.[/lime]",
+        "punchline": "Answer first. The [lime]booking[/lime] follows.",
+        "caption": "Slow catering quotes send high-intent event leads to a competitor. A recipe-costed instant proposal is the wedge. Case ZS-0172.\n\nStop guessing. Start solving.\nExplore Zerosolved.com →\n\n#buildinpublic #catering #hospitality #founders #zerosolved"
+      },
+      "post": {
+        "id": "mp-2026-11-20-am",
+        "variant": "quote",
+        "text": "A quote that arrives late goes to a [lime]competitor.[/lime]",
+        "caption": "Catering quotes that take days lose event leads to faster rivals. Case ZS-0172.\n\nStop guessing. Start solving.\nExplore Zerosolved.com →\n\n#buildinpublic #catering #hospitality #founders #zerosolved"
+      }
     }
   ]
 }
