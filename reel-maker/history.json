@@ -109,6 +109,48 @@
         "scheduledFor": "2026-11-17T20:22:00+05:30",
         "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=8006902&openWithPostUuid=-2008632144609458607"
       }
+    },
+    {
+      "date": "2026-11-18",
+      "mode": "library",
+      "caseId": "ZS-0263",
+      "slug": "the-ai-screening-black-box",
+      "title": "Candidate resume screening audit log",
+      "leadAudience": "students",
+      "video": "output/video/zs-0263-2026-11-18.mp4",
+      "instagram": {
+        "metricoolPostId": 432929732,
+        "scheduledFor": "2026-11-18T20:21:00+05:30",
+        "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=8006902&openWithPostUuid=-2611504122922252889"
+      }
+    },
+    {
+      "date": "2026-11-19",
+      "mode": "library",
+      "caseId": "ZS-0159",
+      "slug": "the-internship-access-divide",
+      "title": "Early career internship access divide",
+      "leadAudience": "students",
+      "video": "output/video/zs-0159-2026-11-19.mp4",
+      "instagram": {
+        "metricoolPostId": 434314245,
+        "scheduledFor": "2026-11-19T20:22:00+05:30",
+        "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=8006902&openWithPostUuid=2635222624353210005"
+      }
+    },
+    {
+      "date": "2026-11-20",
+      "mode": "library",
+      "caseId": "ZS-0115",
+      "slug": "invoice-factoring-opacity",
+      "title": "Invoice factoring hidden fee audit",
+      "leadAudience": "founders",
+      "video": "output/video/zs-0115-2026-11-20.mp4",
+      "instagram": {
+        "metricoolPostId": 435661895,
+        "scheduledFor": "2026-11-20T20:22:00+05:30",
+        "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=8006902&openWithPostUuid=7132333043781552893"
+      }
     }
   ]
 }

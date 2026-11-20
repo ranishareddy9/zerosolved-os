@@ -1,0 +1,53 @@
+SOURCE: https://zerosolved.com/problems/the-internship-access-divide
+FETCHED: 2026-11-19
+
+Early career internship access divide — ZS-0159 | Zerosolved
+zerosolved The library Pricing FAQ
+01 · overview 1 / 9 zerosolved
+01 overview 02 problem strength 03 evidence 04 market 05 timing 06 customers 07 money & moat 08 playbook 09 live tracking ZS-0159 open · figures modeled from public data · every source graded in module 09 verified 2026-08-13 next check 2026-12-03 Home
+/
+Library
+/
+Education & Learning
+/
+Early career internship access divide
+Early career internship access divide
+68
+zero score
+open · figures modeled from public data · every source graded in module 09 68 / 100 — middle of the open files in education & learning 6 sources · 5✓ 1⚠ +44% YoY increase in UK forum queries concerning 'non-target
+module 01 of 09 · overview
+Overview
+The whole case on one page.
+First-generation and regional university undergraduates are systematically filtered out of high-trajectory professional internships due to geographic relocation costs, opaque recruiting timelines, and uncompensated credentialing tasks. Legacy campus recruitment platforms index on institutional prestige and pedigree filters, leaving qualified non-target students locked out of early career pipelines.
+researcher note · [modeled]
+A skill-verified micro-internship marketplace funded by mid-tier corporate talent acquisition budgets can disintermediate traditional target-school campus recruitment; invalidated if enterprise hiring managers refuse to interview candidates without elite university provenance or if student completion rates for remote micro-projects fall below 40%.
+The case in 30 seconds
+who bleeds Undergraduate students at non-Russell Group / non-target state universities studying quantitative or professional disciplines without family financial backstops for metropolitan living costs.
+the bleed Average economic penalty per non-target undergraduate attempting to secure a Tier-1 summer internship
+the gap Existing job boards aggregate open listings and resume parsers filter by university brand, while missing verified work-sample validation that proves execution ability independent of institutional pedigree.
+the wedge Paid 15-hour remote project sprints evaluated directly by engineering and commercial hiring managers at growth-stage technology firms.
+the endgame The primary infrastructure for early career talent discovery and verified competence accreditation, replacing university career fairs and campus OCR programs.
+the window 18-24 months, as enterprise return-to-office mandates collide with DEI budget contractions and rising entry-level ATS rejection rates driven by generative AI application spam.
+What a chatbot can't tell you
+a chat answer this case file
+sources unnamed, unopened, undated ✓ 6 sources, 5 human-verified, 1 flagged openly
+demand data vibes about a big market ✓ tracked search queries and community counts, re-counted each refresh
+freshness frozen at training cutoff ✓ re-verified on a schedule with the next check published
+primary research none ✓ our own operator poll, with n disclosed
+who is building it no idea ✓ an open claim registry — see who else is in
+accountability no counter-evidence ✓ counter-arguments, limitations and downgrade triggers stated
+execution a summary ✓ a 48-hour test, thresholds, and pre-registered kill conditions
+The pass buys the machine, not the format.
+← Previous Next module → Next · problem strength →
+living case file · continuously updated
+zerosolved The library
+Pricing
+FAQ
+Refund policy
+Terms & conditions
+Privacy
+Legal notice
+Contact
+After 6pm Founder
+secured by · · cards worldwide Zerosolved · Scratch Point AI Private Limited · India · Independent research for information only — verify before you build
+© 2026 Zerosolved · all case files verified by a human, one at a time

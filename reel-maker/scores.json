@@ -26,7 +26,11 @@
       },
       "notes": "Baseline, scored 2026-11-11 from preview stills. Hook headline 'Today's Problem.' is generic; problem readable from the card title. $10 trillion cost card names Gallup but no year. Founder cards' sub-lines are small.",
       "scoredAt": "2026-11-11T08:52:05.728Z",
-      "rescored": true
+      "rescored": true,
+      "instagram": {
+        "notPublished": true,
+        "checkedAt": "2026-11-19T14:42:13.911Z"
+      }
     },
     {
       "date": "2026-11-10",
@@ -193,7 +197,16 @@
         "autoSkills": []
       },
       "notes": "Founders cards scene has small sub text and a wrapped headline (density); bar labels are long and rows carry no per-line source; source is case-file-only so stat sourcing lacks named external sources.",
-      "scoredAt": "2026-11-15T14:41:47.818Z"
+      "scoredAt": "2026-11-15T14:41:47.818Z",
+      "instagram": {
+        "views": 14,
+        "avgWatchTimeSec": 3.706,
+        "pctWatched": null,
+        "shares": 0,
+        "saves": 0,
+        "postUrl": "https://www.instagram.com/reel/DfxC9krvaZ7/",
+        "fetchedAt": "2026-11-19T14:42:13.838Z"
+      }
     },
     {
       "date": "2026-11-16",
@@ -219,7 +232,16 @@
         "autoSkills": []
       },
       "notes": "Founders cards scene mixes four angles and is the densest; only one bar stat so sourcing is thin (verified date only, no named outside source).",
-      "scoredAt": "2026-11-16T14:41:41.519Z"
+      "scoredAt": "2026-11-16T14:41:41.519Z",
+      "instagram": {
+        "views": 11,
+        "avgWatchTimeSec": 1.74,
+        "pctWatched": null,
+        "shares": 0,
+        "saves": 0,
+        "postUrl": "https://www.instagram.com/reel/DfznKHYPA_k/",
+        "fetchedAt": "2026-11-19T14:42:13.871Z"
+      }
     },
     {
       "date": "2026-11-17",
@@ -246,6 +268,84 @@
       },
       "notes": "Hook headline is short but the card title is long; the catch card is the 6/10 weak dial rather than a true counter-case; stat sources shown as verified date only.",
       "scoredAt": "2026-11-17T14:41:32.096Z"
+    },
+    {
+      "date": "2026-11-18",
+      "id": "zs-0263-2026-11-18",
+      "caseId": "ZS-0263",
+      "leadAudience": "students",
+      "scores": {
+        "hook": 5,
+        "one_idea": 5,
+        "density": 4,
+        "lime": 5,
+        "catch": 4,
+        "sources": 5,
+        "variety": 5
+      },
+      "total": 33,
+      "max": 35,
+      "previewWarnings": [],
+      "failed": [],
+      "version": {
+        "commit": "b6eff33337d7a4fbd8e4f071be44a068e74db9d1",
+        "uncommittedRuleChanges": false,
+        "autoSkills": []
+      },
+      "notes": "Founders scene is dense with four cards; the catch card is on screen but sits in the grid so it is easy to skim past.",
+      "scoredAt": "2026-11-18T14:41:31.603Z"
+    },
+    {
+      "date": "2026-11-19",
+      "id": "zs-0159-2026-11-19",
+      "caseId": "ZS-0159",
+      "leadAudience": "students",
+      "scores": {
+        "hook": 4,
+        "one_idea": 4,
+        "density": 4,
+        "lime": 5,
+        "catch": 4,
+        "sources": 4,
+        "variety": 5
+      },
+      "total": 30,
+      "max": 35,
+      "previewWarnings": [],
+      "failed": [],
+      "version": {
+        "commit": "aaf7fecd3a3e86fb39298f9b8251c950c3b43f88",
+        "uncommittedRuleChanges": false,
+        "autoSkills": []
+      },
+      "notes": "Hook card carries a single stat bar and a long title; the catch card is small and sits in the last founders grid; stat card source line is small mono.",
+      "scoredAt": "2026-11-19T14:42:01.555Z"
+    },
+    {
+      "date": "2026-11-20",
+      "id": "zs-0115-2026-11-20",
+      "caseId": "ZS-0115",
+      "leadAudience": "founders",
+      "scores": {
+        "hook": 5,
+        "one_idea": 4,
+        "density": 4,
+        "lime": 5,
+        "catch": 5,
+        "sources": 4,
+        "variety": 4
+      },
+      "total": 31,
+      "max": 35,
+      "previewWarnings": [],
+      "failed": [],
+      "version": {
+        "commit": "749a581f76d7d6c91039d5f92740af37daae8ce3",
+        "uncommittedRuleChanges": false,
+        "autoSkills": []
+      },
+      "notes": "Founders cards scene mixes four angles and the student list is text-heavy; the bar and price cards cite 'modeled from public data' and the verified date but no named external source.",
+      "scoredAt": "2026-11-20T14:41:52.363Z"
     }
   ]
 }

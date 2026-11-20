@@ -1,0 +1,53 @@
+SOURCE: https://zerosolved.com/problems/invoice-factoring-opacity
+FETCHED: 2026-11-20
+
+Invoice factoring hidden fee audit — ZS-0115 | Zerosolved
+zerosolved The library Pricing FAQ
+01 · overview 1 / 9 zerosolved
+01 overview 02 problem strength 03 evidence 04 market 05 timing 06 customers 07 money & moat 08 playbook 09 live tracking ZS-0115 open · figures modeled from public data · every source graded in module 09 verified 2026-08-13 next check 2026-12-03 Home
+/
+Library
+/
+Finance & Insurance
+/
+Invoice factoring hidden fee audit
+Invoice factoring hidden fee audit
+72
+zero score
+open · figures modeled from public data · every source graded in module 09 72 / 100 — top the open files in finance & insurance 6 sources · 5✓ 1⚠ +31% search volume growth across B2B finance dispute and fac
+module 01 of 09 · overview
+Overview
+The whole case on one page.
+Commercial invoice finance providers obscure true capital costs behind floating discount tiers, misapplied collection float, and complex aging surcharges. Small business owners bleed thousands each quarter in undisclosed facility leakage without tooling to audit statements against master service agreements.
+researcher note · [modeled]
+B2B operators financing >£1.5M in receivables annually will pay £199–£499/month for automated factor statement reconciliation; file downgrades if factoring lenders adopt open ledger APIs and standardised fee disclosures.
+The case in 30 seconds
+who bleeds Owner-managers and finance heads at £1M–£8M turnover firms in haulage, temporary staffing, and specialist subcontracting.
+the bleed annual unbudgeted factoring leakage and forensic reconciliation labour per operator
+the gap Factoring brokers compare headline rates only at origination; cloud accounting packages log net bank deposits without auditing lender PDF fee schedules against signed facility agreements.
+the wedge A PDF and CSV statement parser that checks monthly factoring statements against contract fee rules and outputs line-item overcharge claim notices.
+the endgame An automated multi-facility liquidity router that dynamically allocates ledger tranches to the lowest net APR factoring provider in real time.
+the window 24-36 months, as legacy factoring houses delay digital reporting while digital neo-factors steadily capture new company formations.
+What a chatbot can't tell you
+a chat answer this case file
+sources unnamed, unopened, undated ✓ 6 sources, 5 human-verified, 1 flagged openly
+demand data vibes about a big market ✓ tracked search queries and community counts, re-counted each refresh
+freshness frozen at training cutoff ✓ re-verified on a schedule with the next check published
+primary research none ✓ our own operator poll, with n disclosed
+who is building it no idea ✓ an open claim registry — see who else is in
+accountability no counter-evidence ✓ counter-arguments, limitations and downgrade triggers stated
+execution a summary ✓ a 48-hour test, thresholds, and pre-registered kill conditions
+The pass buys the machine, not the format.
+← Previous Next module → Next · problem strength →
+living case file · continuously updated
+zerosolved The library
+Pricing
+FAQ
+Refund policy
+Terms & conditions
+Privacy
+Legal notice
+Contact
+After 6pm Founder
+secured by · · cards worldwide Zerosolved · Scratch Point AI Private Limited · India · Independent research for information only — verify before you build
+© 2026 Zerosolved · all case files verified by a human, one at a time
