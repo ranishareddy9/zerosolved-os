@@ -145,7 +145,12 @@
       "slug": "invoice-factoring-opacity",
       "title": "Invoice factoring hidden fee audit",
       "leadAudience": "founders",
-      "video": "output/video/zs-0115-2026-11-20.mp4"
+      "video": "output/video/zs-0115-2026-11-20.mp4",
+      "instagram": {
+        "metricoolPostId": 435661895,
+        "scheduledFor": "2026-11-20T20:22:00+05:30",
+        "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=8006902&openWithPostUuid=7132333043781552893"
+      }
     }
   ]
 }
