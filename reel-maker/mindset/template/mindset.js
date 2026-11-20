@@ -188,7 +188,7 @@
     }
     const nf = st.p * total, full = Math.floor(nf), frac = nf - full;
     for (let i = 0; i < Math.min(full, total); i++) s += rect(L.pieces[i]);
-    if (full < total && frac > 0.02) s += rect(L.pieces[full], -70 * (1 - ease(frac)), frac);
+    if (full < total && frac > 0.02 && st.state === "work") s += rect(L.pieces[full], -70 * (1 - ease(frac)), frac);
     return s;
   }
 
