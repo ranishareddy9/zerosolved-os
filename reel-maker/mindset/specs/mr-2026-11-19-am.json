@@ -1,0 +1,30 @@
+{
+  "id": "mr-2026-11-19-am",
+  "type": "reel",
+  "case": "ZS-0402",
+  "sourceFile": "sources/mindset-zs-0402-2026-11-19.txt",
+  "footnote": "ZS-0402 · zero score 75 · verified 2026-09-07",
+  "kicker": "case file · retail & e-commerce",
+  "title": "Static size charts keep [lime]returns coming.[/lime]",
+  "lanes": [
+    {
+      "label": "online shopper",
+      "sub": "guesses the size",
+      "motion": "restart",
+      "object": "bricks",
+      "color": "orange"
+    },
+    {
+      "label": "size matcher",
+      "sub": "reads measurements",
+      "motion": "steady",
+      "object": "bricks",
+      "color": "lime"
+    }
+  ],
+  "punchline": "Match the body to the garment. [lime]Fewer returns.[/lime]",
+  "caption": "Static size charts leave shoppers guessing, so ill-fitting clothes come back. Matching measurements to garments is the wedge. Case ZS-0402.\n\nStop guessing. Start solving.\nExplore Zerosolved.com →\n\n#buildinpublic #ecommerce #retail #founders #zerosolved",
+  "music": {
+    "seed": 7319
+  }
+}

@@ -24,7 +24,7 @@ const spec = JSON.parse(fs.readFileSync(specPath, "utf8"));
 // ---------- spec checks ----------
 const errors = [], warns = [];
 const MOTIONS = ["steady", "restart", "stall", "idle", "late", "burst"];
-const OBJECTS = ["bricks", "stairs"];
+const OBJECTS = ["bricks", "stairs", "ladder", "path", "plant", "pyramid", "chart"];
 const COLORS = ["white", "lime", "orange"];
 if (!/^[a-z0-9-]{3,60}$/.test(spec.id || "")) errors.push('id must be lowercase letters, digits and dashes (e.g. "mr-2026-11-16-am")');
 if (!["reel", "post"].includes(spec.type)) errors.push('type must be "reel" or "post"');
@@ -41,6 +41,15 @@ if (spec.type === "reel") {
     if (L.color && !COLORS.includes(L.color)) errors.push(`lane ${i + 1}: color must be one of ${COLORS.join(", ")}`);
   });
   if (spec.lanes?.length === 2 && spec.lanes[0].motion === spec.lanes[1].motion) warns.push("both lanes use the same motion — the contrast won't read");
+  // Variety: don't reuse a scene object from the last 3 reels in history.json.
+  try {
+    const hist = JSON.parse(fs.readFileSync(path.join(HERE, "history.json"), "utf8"));
+    const runs = (Array.isArray(hist) ? hist : hist.runs || []).filter((e) => e.reel && e.reel.id !== spec.id);
+    const recent = runs.slice(-3).map((e) => e.reel.object || "bricks");
+    const used = [...new Set((spec.lanes || []).map((L) => L.object || "bricks"))];
+    for (const o of used) if (recent.includes(o))
+      warns.push(`object "${o}" was used in one of the last 3 reels (${recent.join(", ")}) — pick another that fits this concept: ${OBJECTS.filter((x) => !recent.includes(x)).join(", ")} (see mindset/README.md, "Pick the scene")`);
+  } catch {}
 } else if (spec.type === "post") {
   if (spec.variant === "equation") {
     if (!Array.isArray(spec.terms) || spec.terms.length < 3 || spec.terms.length > 5) errors.push("an equation needs 3–5 terms (words and ops)");

@@ -1,6 +1,6 @@
 // Zerosolved "mindset" format. Deterministic: window.__seek(t) draws the frame at t seconds.
 // Reel (1080×1920, 17 s): two pictogram figures side by side, each with a label, building
-// (bricks or stairs) at a different pace; a punchline; then the Zerosolved end card.
+// (bricks, stairs, ladder, path, plant, pyramid or chart) at a different pace; a punchline; then the Zerosolved end card.
 // Post (1080×1350): one quote, or a word equation, on black.
 (() => {
   const DUR = 17, A0 = 1.8, A1 = 11.6, PUNCH = 11.6, END = 14.2;
@@ -72,6 +72,50 @@
     return out;
   }
 
+  // ladder: rails and rungs, built level by level; the figure climbs it
+  function ladder(cx) {
+    const x0 = cx - 30, out = [];
+    for (let i = 0; i < 6; i++) {
+      const y = G - (i + 1) * 40;
+      out.push({ x: x0, y, w: 12, h: 40 }, { x: x0 + 108, y, w: 12, h: 40 }, { x: x0 + 12, y: y + 14, w: 96, h: 11, level: i + 1 });
+    }
+    return out;
+  }
+  // path: planks laid toward a flag; the figure walks along them
+  function path(cx) {
+    const x0 = cx - 200, out = [];
+    for (let i = 0; i < 8; i++) out.push({ x: x0 + i * 48, y: G - 14, w: 44, h: 14 });
+    return out;
+  }
+  // plant: a stem grows out of a pot, leaf by leaf, then blooms
+  function plant(cx) {
+    const sx = cx + 85, top = G - 70, out = [];
+    for (let i = 0; i < 8; i++) {
+      const y = top - (i + 1) * 34;
+      out.push({ x: sx - 6, y, w: 12, h: 36 });
+      out.push(i % 2 ? { x: sx + 7, y: y + 8, w: 62, h: 22, rx: 11 } : { x: sx - 69, y: y + 8, w: 62, h: 22, rx: 11 });
+    }
+    return out;
+  }
+  // pyramid: rows of blocks narrowing to a point
+  function pyramid(cx) {
+    const x0 = cx - 60, out = [];
+    for (let r = 0; r < 5; r++) for (let k = 0; k < 5 - r; k++) out.push({ x: x0 + r * 25 + k * 50, y: G - (r + 1) * 40, w: 46, h: 36 });
+    return out;
+  }
+  // chart: bars that rise left to right, block by block
+  function chart(cx) {
+    const x0 = cx - 50, out = [];
+    for (let c = 0; c < 5; c++) for (let k = 0; k <= c + 1; k++) out.push({ x: x0 + c * 52, y: G - (k + 1) * 34, w: 44, h: 30 });
+    return out;
+  }
+  const BUILDERS = { bricks, stairs, ladder, path, plant, pyramid, chart };
+  const STATIC = {
+    path: (L) => { const fx = L.cx + 196, c = COLORS[L.color] || COLORS.white;
+      return `<rect x="${fx}" y="${G - 170}" width="6" height="170" fill="#5b6472"/><path d="M${fx + 6} ${G - 170} l64 22 l-64 22 z" fill="${c}" opacity=".9"/>`; },
+    plant: (L) => `<path d="M${L.cx + 25} ${G - 70} h120 l-16 70 h-88 z" fill="#5b6472"/>`,
+  };
+
   function laneAt(L, t) {
     const u = clamp((t - A0) / WIN);
     const m = t < A0 ? { p: 0, state: L.motion === "idle" || L.motion === "late" ? "think" : "stand" } : MOTIONS[L.motion](u);
@@ -81,6 +125,12 @@
     if (L.object === "stairs") {
       const n = Math.floor(m.p * L.pieces.length);
       if (n === 0) fx = L.cx - 205; else { fx = L.pieces[n - 1].x + 19; fy = G - n * 30; }
+    } else if (L.object === "ladder") {
+      const rungs = L.pieces.slice(0, Math.floor(m.p * L.pieces.length)).filter((b) => b.level).length;
+      fx = rungs === 0 ? L.cx - 150 : L.cx + 30; fy = G - rungs * 40;
+    } else if (L.object === "path") {
+      const n = Math.floor(m.p * L.pieces.length);
+      fx = n === 0 ? L.cx - 215 : L.pieces[n - 1].x + 22; fy = n === 0 ? G : G - 14;
     } else fx = L.cx - 150;
     return { ...m, fx, fy, dir };
   }
@@ -122,9 +172,9 @@
   function objects(L, t) {
     const st = laneAt(L, t), fill = COLORS[L.color] || COLORS.white;
     const total = L.pieces.length;
-    let s = "";
+    let s = STATIC[L.object] ? STATIC[L.object](L) : "";
     const rect = (b, dy = 0, o = 1, rot = 0, dx = 0) =>
-      `<rect x="${(b.x + dx).toFixed(1)}" y="${(b.y + dy).toFixed(1)}" width="${b.w}" height="${b.h}" rx="4" fill="${fill}" opacity="${o.toFixed(3)}"` +
+      `<rect x="${(b.x + dx).toFixed(1)}" y="${(b.y + dy).toFixed(1)}" width="${b.w}" height="${b.h}" rx="${b.rx ?? 4}" fill="${fill}" opacity="${o.toFixed(3)}"` +
       (rot ? ` transform="rotate(${rot.toFixed(1)} ${(b.x + dx + b.w / 2).toFixed(1)} ${(b.y + dy + b.h / 2).toFixed(1)})"` : "") + "/>";
     if (st.collapse) {
       const n = Math.floor(st.collapse.from * total), sec = st.collapse.s;
@@ -178,8 +228,8 @@
     const ti = div("title", el.head); ti.style.marginTop = "22px"; rich(ti, spec.title);
     lanes = spec.lanes.map((L, i) => {
       const cx = 270 + 540 * i;
-      return { ...L, cx, color: L.color || (i === 0 ? "orange" : "lime"), object: L.object || "bricks",
-        pieces: (L.object || "bricks") === "stairs" ? stairs(cx) : bricks(cx) };
+      const object = BUILDERS[L.object] ? L.object : "bricks";
+      return { ...L, cx, color: L.color || (i === 0 ? "orange" : "lime"), object, pieces: BUILDERS[object](cx) };
     });
     el.labels = lanes.map((L) => {
       const n = div("label"); n.style.left = `${L.cx - 230}px`; n.style.top = "690px";

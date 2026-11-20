@@ -1,0 +1,28 @@
+{
+  "id": "mp-2026-11-19-pm",
+  "type": "post",
+  "variant": "equation",
+  "kicker": "builder notes",
+  "terms": [
+    {
+      "word": "pain",
+      "label": "real"
+    },
+    {
+      "op": "+"
+    },
+    {
+      "word": "buyer",
+      "label": "paying"
+    },
+    {
+      "op": "="
+    },
+    {
+      "word": "[lime]cash[/lime]",
+      "label": "result"
+    }
+  ],
+  "line": "Start with the [lime]pain.[/lime] The buyer follows.",
+  "caption": "A real problem plus someone who pays is the simplest business there is.\n\nStop guessing. Start solving.\nExplore Zerosolved.com →\n\n#buildinpublic #startupideas #founders #studentprojects #zerosolved"
+}

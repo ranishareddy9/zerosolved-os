@@ -1,0 +1,13 @@
+{
+  "id": "mr-2026-11-20-pm",
+  "type": "reel",
+  "kicker": "builder notes · waiting vs starting",
+  "title": "Two ways to meet [lime]the right idea.[/lime]",
+  "lanes": [
+    { "label": "waiting", "sub": "for the perfect idea", "motion": "idle", "object": "stairs", "color": "orange" },
+    { "label": "starting", "sub": "with a small problem", "motion": "steady", "object": "stairs", "color": "lime" }
+  ],
+  "punchline": "Small problems are still [lime]steps.[/lime]",
+  "caption": "Waiting for a perfect idea keeps you at the bottom. A small, real problem is already a step up.\n\nStop guessing. Start solving.\nExplore Zerosolved.com →\n\n#buildinpublic #startupideas #founders #studentprojects #zerosolved",
+  "music": { "seed": 7343 }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "mp-2026-11-18-am",
+  "type": "post",
+  "variant": "equation",
+  "case": "ZS-0171",
+  "sourceFile": "sources/mindset-allergens-2026-11-18.txt",
+  "footnote": "ZS-0171 · zero score 70 · verified 2026-08-13",
+  "kicker": "case file · food & hospitality",
+  "terms": [
+    {
+      "word": "menu",
+      "label": "changes"
+    },
+    {
+      "op": "+"
+    },
+    {
+      "word": "form",
+      "label": "static"
+    },
+    {
+      "op": "="
+    },
+    {
+      "word": "[lime]lag[/lime]",
+      "label": "gap"
+    }
+  ],
+  "line": "Read the prep board. Close the [lime]gap.[/lime]",
+  "caption": "Digital menus rely on static checkboxes that lag what the kitchen actually prepped. That lag is the gap. Case ZS-0171.\n\nStop guessing. Start solving.\nExplore Zerosolved.com →\n\n#buildinpublic #foodtech #restaurants #founders #zerosolved"
+}

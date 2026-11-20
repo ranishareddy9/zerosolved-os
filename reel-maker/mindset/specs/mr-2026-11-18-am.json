@@ -1,0 +1,30 @@
+{
+  "id": "mr-2026-11-18-am",
+  "type": "reel",
+  "case": "ZS-0171",
+  "sourceFile": "sources/mindset-allergens-2026-11-18.txt",
+  "footnote": "ZS-0171 · zero score 70 · verified 2026-08-13",
+  "kicker": "case file · food & hospitality",
+  "title": "Allergen sheets can’t keep up with [lime]rotating menus.[/lime]",
+  "lanes": [
+    {
+      "label": "head chef",
+      "sub": "updates sheets by hand",
+      "motion": "restart",
+      "object": "stairs",
+      "color": "orange"
+    },
+    {
+      "label": "sheet generator",
+      "sub": "reads the prep board",
+      "motion": "steady",
+      "object": "stairs",
+      "color": "lime"
+    }
+  ],
+  "punchline": "Photo the board. Get the [lime]allergen sheet[/lime] fast.",
+  "caption": "Rotating menus break allergen sheets by hand: suppliers swap brands and the matrix lags the kitchen. A daily prep-board photo to allergen sheet is the wedge. Case ZS-0171.\n\nStop guessing. Start solving.\nExplore Zerosolved.com →\n\n#buildinpublic #foodtech #restaurants #founders #zerosolved",
+  "music": {
+    "seed": 6188
+  }
+}

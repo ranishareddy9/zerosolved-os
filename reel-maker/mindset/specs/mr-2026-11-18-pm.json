@@ -1,0 +1,13 @@
+{
+  "id": "mr-2026-11-18-pm",
+  "type": "reel",
+  "kicker": "builder notes · stealth vs open",
+  "title": "Two ways to share [lime]what you build.[/lime]",
+  "lanes": [
+    { "label": "stealth mode", "sub": "builds alone", "motion": "burst", "object": "bricks", "color": "orange" },
+    { "label": "in the open", "sub": "shows early", "motion": "steady", "object": "bricks", "color": "lime" }
+  ],
+  "punchline": "Feedback is cheaper [lime]before[/lime] the wall is up.",
+  "caption": "Building alone feels safe until the wall is finished and nobody wants it. Showing early makes feedback cheap.\n\nStop guessing. Start solving.\nExplore Zerosolved.com →\n\n#buildinpublic #startupideas #founders #studentprojects #zerosolved",
+  "music": { "seed": 3917 }
+}

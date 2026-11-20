@@ -1,0 +1,30 @@
+{
+  "id": "mr-2026-11-20-am",
+  "type": "reel",
+  "case": "ZS-0172",
+  "sourceFile": "sources/mindset-zs-0172-2026-11-20.txt",
+  "footnote": "ZS-0172 · zero score 75 · verified 2026-08-13",
+  "kicker": "case file · food & hospitality",
+  "title": "Slow catering quotes [lime]lose the event.[/lime]",
+  "lanes": [
+    {
+      "label": "caterer",
+      "sub": "quotes by hand",
+      "motion": "burst",
+      "object": "bricks",
+      "color": "orange"
+    },
+    {
+      "label": "instant quote",
+      "sub": "costs the recipe",
+      "motion": "steady",
+      "object": "bricks",
+      "color": "lime"
+    }
+  ],
+  "punchline": "Answer first. The [lime]booking[/lime] follows.",
+  "caption": "Slow catering quotes send high-intent event leads to a competitor. A recipe-costed instant proposal is the wedge. Case ZS-0172.\n\nStop guessing. Start solving.\nExplore Zerosolved.com →\n\n#buildinpublic #catering #hospitality #founders #zerosolved",
+  "music": {
+    "seed": 4417
+  }
+}

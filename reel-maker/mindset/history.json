@@ -143,6 +143,180 @@
           "scheduledFor": "2026-11-17T20:01:00+05:30"
         }
       }
+    },
+    {
+      "date": "2026-11-18",
+      "slot": "am",
+      "mode": "case",
+      "case": "ZS-0171",
+      "reel": {
+        "id": "mr-2026-11-18-am",
+        "left": "head chef",
+        "right": "sheet generator",
+        "object": "stairs",
+        "title": "Allergen sheets can’t keep up with [lime]rotating menus.[/lime]",
+        "punchline": "Photo the board. Get the [lime]allergen sheet[/lime] fast.",
+        "caption": "Rotating menus break allergen sheets by hand: suppliers swap brands and the matrix lags the kitchen. A daily prep-board photo to allergen sheet is the wedge. Case ZS-0171.\n\nStop guessing. Start solving.\nExplore Zerosolved.com →\n\n#buildinpublic #foodtech #restaurants #founders #zerosolved",
+        "instagram": {
+          "metricoolPostId": "432282013",
+          "scheduledFor": "2026-11-18T08:00:00+05:30"
+        }
+      },
+      "post": {
+        "id": "mp-2026-11-18-am",
+        "variant": "equation",
+        "terms": "menu + form = lag",
+        "line": "Read the prep board. Close the [lime]gap.[/lime]",
+        "caption": "Digital menus rely on static checkboxes that lag what the kitchen actually prepped. That lag is the gap. Case ZS-0171.\n\nStop guessing. Start solving.\nExplore Zerosolved.com →\n\n#buildinpublic #foodtech #restaurants #founders #zerosolved",
+        "instagram": {
+          "metricoolPostId": "432282025",
+          "scheduledFor": "2026-11-18T08:01:00+05:30"
+        }
+      }
+    },
+    {
+      "date": "2026-11-18",
+      "slot": "pm",
+      "mode": "motivational",
+      "reel": {
+        "id": "mr-2026-11-18-pm",
+        "left": "stealth mode",
+        "right": "in the open",
+        "object": "bricks",
+        "title": "Two ways to share [lime]what you build.[/lime]",
+        "punchline": "Feedback is cheaper [lime]before[/lime] the wall is up.",
+        "caption": "Building alone feels safe until the wall is finished and nobody wants it. Showing early makes feedback cheap.\n\nStop guessing. Start solving.\nExplore Zerosolved.com →\n\n#buildinpublic #startupideas #founders #studentprojects #zerosolved",
+        "instagram": {
+          "metricoolPostId": "432896072",
+          "scheduledFor": "2026-11-18T20:00:00+05:30"
+        }
+      },
+      "post": {
+        "id": "mp-2026-11-18-pm",
+        "variant": "quote",
+        "text": "Stop asking what to build. Ask who is [lime]stuck.[/lime]",
+        "caption": "The best starting point is a person with a real problem, not a clever idea.\n\nStop guessing. Start solving.\nExplore Zerosolved.com →\n\n#buildinpublic #startupideas #founders #studentprojects #zerosolved",
+        "instagram": {
+          "metricoolPostId": "432896101",
+          "scheduledFor": "2026-11-18T20:01:00+05:30"
+        }
+      }
+    },
+    {
+      "date": "2026-11-19",
+      "slot": "am",
+      "mode": "case",
+      "case": "ZS-0402",
+      "reel": {
+        "id": "mr-2026-11-19-am",
+        "left": "online shopper",
+        "right": "size matcher",
+        "object": "bricks",
+        "title": "Static size charts keep [lime]returns coming.[/lime]",
+        "punchline": "Match the body to the garment. [lime]Fewer returns.[/lime]",
+        "caption": "Static size charts leave shoppers guessing, so ill-fitting clothes come back. Matching measurements to garments is the wedge. Case ZS-0402.\n\nStop guessing. Start solving.\nExplore Zerosolved.com →\n\n#buildinpublic #ecommerce #retail #founders #zerosolved",
+        "instagram": {
+          "metricoolPostId": "433674577",
+          "scheduledFor": "2026-11-19T08:00:00+05:30"
+        }
+      },
+      "post": {
+        "id": "mp-2026-11-19-am",
+        "variant": "quote",
+        "text": "Size charts are static. Bodies are not. [lime]Match them.[/lime]",
+        "caption": "A static size chart cannot fit every body shape. That gap is the opening. Case ZS-0402.\n\nStop guessing. Start solving.\nExplore Zerosolved.com →\n\n#buildinpublic #ecommerce #retail #founders #zerosolved",
+        "instagram": {
+          "metricoolPostId": "433674595",
+          "scheduledFor": "2026-11-19T08:01:00+05:30"
+        }
+      }
+    },
+    {
+      "date": "2026-11-19",
+      "slot": "pm",
+      "mode": "motivational",
+      "reel": {
+        "id": "mr-2026-11-19-pm",
+        "left": "idea collector",
+        "right": "problem hunter",
+        "object": "stairs",
+        "title": "Two ways to find [lime]what to build.[/lime]",
+        "punchline": "Notes do not climb. [lime]Conversations[/lime] do.",
+        "caption": "Saving ideas feels like progress, but notes do not climb. Talking to people with the problem does.\n\nStop guessing. Start solving.\nExplore Zerosolved.com →\n\n#buildinpublic #startupideas #founders #studentprojects #zerosolved",
+        "instagram": {
+          "metricoolPostId": "434281110",
+          "scheduledFor": "2026-11-19T20:00:00+05:30"
+        }
+      },
+      "post": {
+        "id": "mp-2026-11-19-pm",
+        "variant": "equation",
+        "terms": "pain + buyer = cash",
+        "line": "Start with the [lime]pain.[/lime] The buyer follows.",
+        "caption": "A real problem plus someone who pays is the simplest business there is.\n\nStop guessing. Start solving.\nExplore Zerosolved.com →\n\n#buildinpublic #startupideas #founders #studentprojects #zerosolved",
+        "instagram": {
+          "metricoolPostId": "434281157",
+          "scheduledFor": "2026-11-19T20:01:00+05:30"
+        }
+      }
+    },
+    {
+      "date": "2026-11-20",
+      "slot": "am",
+      "mode": "case",
+      "case": "ZS-0172",
+      "reel": {
+        "id": "mr-2026-11-20-am",
+        "left": "caterer",
+        "right": "instant quote",
+        "object": "bricks",
+        "title": "Slow catering quotes [lime]lose the event.[/lime]",
+        "punchline": "Answer first. The [lime]booking[/lime] follows.",
+        "caption": "Slow catering quotes send high-intent event leads to a competitor. A recipe-costed instant proposal is the wedge. Case ZS-0172.\n\nStop guessing. Start solving.\nExplore Zerosolved.com →\n\n#buildinpublic #catering #hospitality #founders #zerosolved",
+        "instagram": {
+          "metricoolPostId": "435032528",
+          "scheduledFor": "2026-11-20T08:00:00+05:30"
+        }
+      },
+      "post": {
+        "id": "mp-2026-11-20-am",
+        "variant": "quote",
+        "text": "A quote that arrives late goes to a [lime]competitor.[/lime]",
+        "caption": "Catering quotes that take days lose event leads to faster rivals. Case ZS-0172.\n\nStop guessing. Start solving.\nExplore Zerosolved.com →\n\n#buildinpublic #catering #hospitality #founders #zerosolved",
+        "instagram": {
+          "metricoolPostId": "435032550",
+          "scheduledFor": "2026-11-20T08:01:00+05:30"
+        }
+      }
+    },
+    {
+      "date": "2026-11-20",
+      "slot": "pm",
+      "mode": "motivational",
+      "reel": {
+        "id": "mr-2026-11-20-pm",
+        "left": "waiting",
+        "right": "starting",
+        "object": "stairs",
+        "title": "Two ways to meet [lime]the right idea.[/lime]",
+        "punchline": "Small problems are still [lime]steps.[/lime]",
+        "caption": "Waiting for a perfect idea keeps you at the bottom. A small, real problem is already a step up.\n\nStop guessing. Start solving.\nExplore Zerosolved.com →\n\n#buildinpublic #startupideas #founders #studentprojects #zerosolved",
+        "instagram": {
+          "metricoolPostId": "435631991",
+          "scheduledFor": "2026-11-20T20:00:00+05:30"
+        }
+      },
+      "post": {
+        "id": "mp-2026-11-20-pm",
+        "variant": "equation",
+        "terms": "guess + wait = loss",
+        "line": "Guessing is slow. [lime]Evidence[/lime] is not.",
+        "caption": "Guessing what to build costs time and often ends in a loss. Evidence shortens the road.\n\nStop guessing. Start solving.\nExplore Zerosolved.com →\n\n#buildinpublic #startupideas #founders #studentprojects #zerosolved",
+        "instagram": {
+          "metricoolPostId": "435632052",
+          "scheduledFor": "2026-11-20T20:01:00+05:30"
+        }
+      }
     }
   ]
 }

@@ -28,9 +28,26 @@ Fix every `Spec errors`, `STYLE WARNINGS` and `LAYOUT WARNINGS` line before the 
 ```
 - **Lanes:** exactly 2. Left is the struggling side (`color: "orange"`), right is the Zerosolved way (`color: "lime"`). Labels ≤ 16 characters; `sub` is a few lowercase words.
 - **motion:** `steady` (builds the whole time, stands tall at the end), `restart` (builds, crumbles, three times, ends sitting), `stall` (starts, then stops to think), `idle` (only thinks), `late` (thinks, then builds), `burst` (builds fast, then burns out sitting). The two lanes must use different motions; the right lane is normally `steady` or `late`.
-- **object:** `bricks` (a wall) or `stairs` (the figure climbs as it builds).
+- **object:** the scene both figures build. Pick it from the concept (see "Pick the scene" below): `bricks`, `stairs`, `ladder`, `path`, `plant`, `pyramid` or `chart`. The renderer warns if the object was used in any of the last 3 reels; treat that like any other STYLE WARNING and change it.
 - **title:** sentence case, ends with a period, max 2 lines, 1–3 `[lime]` words. **punchline:** the same rules; it appears at 11.6 s. The end card (wordmark, "Stop guessing. Start solving.", "Explore Zerosolved.com →") is automatic.
 - Change `music.seed` (any whole number) between reels so the generated track varies.
+
+## Pick the scene
+Match the object to what the idea is about, not to what was used last. Seven scenes, all drawn in the same minimal style:
+
+| object | what it looks like | use it for ideas about |
+|---|---|---|
+| `bricks` | a wall going up | building something solid, foundations, doing the real work |
+| `stairs` | steps; the figure climbs as it builds | small steps, momentum, starting before you're ready |
+| `ladder` | rails and rungs; the figure climbs it | getting out of a hole, career or skill progress, levelling up |
+| `path` | planks laid toward a flag | direction, a clear goal, finding the way, shipping to a finish line |
+| `plant` | a stem and leaves growing from a pot | patience, compounding, nurturing users or skills, slow growth |
+| `pyramid` | rows of blocks narrowing to a point | priorities, focus, building on a base, a narrow wedge |
+| `chart` | bars rising left to right | traction, results, measuring, evidence, growth over time |
+
+- The struggling side's motion shows how it fails: `restart` (keeps starting over), `stall` (stops to think), `burst` (fast then burns out), `idle` (never starts). The better side is `steady` or `late` (thinks, then builds).
+- Vary motions too: don't use the same left-lane motion as the previous reel when another fits.
+- Bricks and stairs were the only scenes until 2026-11-20; prefer the other five until they have been used as often.
 
 ## Post spec
 ```json
