@@ -1,0 +1,15 @@
+{
+  "id": "mp-2026-11-20-pm",
+  "type": "post",
+  "variant": "equation",
+  "kicker": "builder notes",
+  "terms": [
+    {"word": "guess", "label": "you"},
+    {"op": "+"},
+    {"word": "wait", "label": "time"},
+    {"op": "="},
+    {"word": "[lime]loss[/lime]", "label": "result"}
+  ],
+  "line": "Guessing is slow. [lime]Evidence[/lime] is not.",
+  "caption": "Guessing what to build costs time and often ends in a loss. Evidence shortens the road.\n\nStop guessing. Start solving.\nExplore Zerosolved.com →\n\n#buildinpublic #startupideas #founders #studentprojects #zerosolved"
+}
