@@ -346,6 +346,32 @@
       },
       "notes": "Founders cards scene mixes four angles and the student list is text-heavy; the bar and price cards cite 'modeled from public data' and the verified date but no named external source.",
       "scoredAt": "2026-11-20T14:41:52.363Z"
+    },
+    {
+      "date": "2026-11-21",
+      "id": "zs-0745-2026-11-21",
+      "caseId": "ZS-0745",
+      "leadAudience": "students",
+      "scores": {
+        "hook": 4,
+        "one_idea": 5,
+        "density": 4,
+        "lime": 5,
+        "catch": 4,
+        "sources": 4,
+        "variety": 5
+      },
+      "total": 31,
+      "max": 35,
+      "previewWarnings": [],
+      "failed": [],
+      "version": {
+        "commit": "c46a4b7ea41adb8b39d7320e62f1092a6312cd95",
+        "uncommittedRuleChanges": false,
+        "autoSkills": []
+      },
+      "notes": "Hook headline is a little abstract and the cost/market figures are modeled; the catch (WTP 6/10) sits in the final founders scene.",
+      "scoredAt": "2026-11-21T14:40:25.694Z"
     }
   ]
 }

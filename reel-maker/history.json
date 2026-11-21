@@ -151,6 +151,15 @@
         "scheduledFor": "2026-11-20T20:22:00+05:30",
         "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=8006902&openWithPostUuid=7132333043781552893"
       }
+    },
+    {
+      "date": "2026-11-21",
+      "mode": "library",
+      "caseId": "ZS-0745",
+      "slug": "proof-of-process-portfolios",
+      "title": "Demonstrating professional capability portfolios",
+      "leadAudience": "students",
+      "video": "output/video/zs-0745-2026-11-21.mp4"
     }
   ]
 }
