@@ -1,0 +1,30 @@
+{
+  "id": "mr-2026-11-21-am",
+  "type": "reel",
+  "case": "ZS-0075",
+  "sourceFile": "sources/mindset-zs-0075-2026-11-21.txt",
+  "footnote": "ZS-0075 · zero score 75 · verified 2026-08-13",
+  "kicker": "case file · services & agencies",
+  "title": "Unbilled revisions [lime]drain agency margin.[/lime]",
+  "lanes": [
+    {
+      "label": "account lead",
+      "sub": "absorbs the rounds",
+      "motion": "restart",
+      "object": "path",
+      "color": "orange"
+    },
+    {
+      "label": "review portal",
+      "sub": "flags scope first",
+      "motion": "steady",
+      "object": "path",
+      "color": "lime"
+    }
+  ],
+  "punchline": "Price the change [lime]before[/lime] the work.",
+  "caption": "Agencies absorb out-of-scope revision rounds instead of billing them, and margin leaks. Pricing the change before the work fixes the gap. Case ZS-0075.\n\nStop guessing. Start solving.\nExplore Zerosolved.com →\n\n#buildinpublic #agencylife #saas #founders #zerosolved",
+  "music": {
+    "seed": 2111
+  }
+}
