@@ -359,6 +359,27 @@
         "line": "Applause is not a [lime]buyer.[/lime]",
         "caption": "A loud launch is not the same as people needing what you built. Look for proof of the problem first.\n\nStop guessing. Start solving.\nExplore Zerosolved.com →\n\n#buildinpublic #startupideas #founders #studentprojects #zerosolved"
       }
+    },
+    {
+      "date": "2026-11-22",
+      "slot": "am",
+      "mode": "case",
+      "case": "ZS-0939",
+      "reel": {
+        "id": "mr-2026-11-22-am",
+        "left": "plant manager",
+        "right": "cause coder",
+        "object": "chart",
+        "title": "Downtime logged as [lime]miscellaneous.[/lime]",
+        "punchline": "A named cause is a [lime]fixable[/lime] cause.",
+        "caption": "Maintenance logs full of 'miscellaneous' hide why production lines keep stopping. Naming every cause is the gap. Case ZS-0939.\n\nStop guessing. Start solving.\nExplore Zerosolved.com →\n\n#buildinpublic #manufacturing #industrial #founders #zerosolved"
+      },
+      "post": {
+        "id": "mp-2026-11-22-am",
+        "variant": "quote",
+        "text": "You can't fix what you log as [lime]miscellaneous.[/lime]",
+        "caption": "Generic downtime entries hide the root cause on the factory floor. Specific cause tracking is the gap. Case ZS-0939.\n\nStop guessing. Start solving.\nExplore Zerosolved.com →\n\n#buildinpublic #manufacturing #industrial #founders #zerosolved"
+      }
     }
   ]
 }

@@ -1,0 +1,16 @@
+{
+  "id": "mr-2026-11-22-am",
+  "type": "reel",
+  "case": "ZS-0939",
+  "sourceFile": "sources/mindset-zs-0939-2026-11-22.txt",
+  "footnote": "ZS-0939 · zero score 65 · verified 2026-09-07",
+  "kicker": "case file · manufacturing & industrial",
+  "title": "Downtime logged as [lime]miscellaneous.[/lime]",
+  "lanes": [
+    { "label": "plant manager", "sub": "logs it as misc", "motion": "stall", "object": "chart", "color": "orange" },
+    { "label": "cause coder", "sub": "tags every stop", "motion": "late", "object": "chart", "color": "lime" }
+  ],
+  "punchline": "A named cause is a [lime]fixable[/lime] cause.",
+  "caption": "Maintenance logs full of 'miscellaneous' hide why production lines keep stopping. Naming every cause is the gap. Case ZS-0939.\n\nStop guessing. Start solving.\nExplore Zerosolved.com →\n\n#buildinpublic #manufacturing #industrial #founders #zerosolved",
+  "music": { "seed": 2212 }
+}
