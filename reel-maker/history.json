@@ -160,6 +160,15 @@
       "title": "Demonstrating professional capability portfolios",
       "leadAudience": "students",
       "video": "output/video/zs-0745-2026-11-21.mp4"
+    },
+    {
+      "date": "2026-11-22",
+      "mode": "library",
+      "caseId": "ZS-0230",
+      "slug": "the-flaky-test-everyone-ignores",
+      "title": "Ignored flaky test pipeline remediation",
+      "leadAudience": "students",
+      "video": "output/video/zs-0230-2026-11-22.mp4"
     }
   ]
 }

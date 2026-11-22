@@ -372,6 +372,32 @@
       },
       "notes": "Hook headline is a little abstract and the cost/market figures are modeled; the catch (WTP 6/10) sits in the final founders scene.",
       "scoredAt": "2026-11-21T14:40:25.694Z"
+    },
+    {
+      "date": "2026-11-22",
+      "id": "zs-0230-2026-11-22",
+      "caseId": "ZS-0230",
+      "leadAudience": "students",
+      "scores": {
+        "hook": 5,
+        "one_idea": 4,
+        "density": 4,
+        "lime": 5,
+        "catch": 4,
+        "sources": 4,
+        "variety": 4
+      },
+      "total": 30,
+      "max": 35,
+      "previewWarnings": [],
+      "failed": [],
+      "version": {
+        "commit": "09eef516763a766d6be05de527e2e89d93f83bf2",
+        "uncommittedRuleChanges": false,
+        "autoSkills": []
+      },
+      "notes": "Founders scene packs four cards and the catch card is easy to miss; sources are the case file plus verified date, not named external sources.",
+      "scoredAt": "2026-11-22T14:41:53.271Z"
     }
   ]
 }

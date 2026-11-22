@@ -1,0 +1,76 @@
+{
+  "id": "zs-0230-2026-11-22",
+  "title": "Ignored flaky test pipeline remediation",
+  "source": "https://zerosolved.com/problems/the-flaky-test-everyone-ignores (read 2026-11-22) — ZS-0230, verified 2026-08-13, 6 sources",
+  "palette": "lime-only",
+  "headerStat": "971 case files",
+  "music": { "bpm": 120, "seed": 230, "progression": ["Am","F","C","G"] },
+  "audienceOrder": "students first — a tech case (CI, Playwright, Jest) where students can build a real project; the buyer's cost figure is not printed in the case file",
+  "scenes": [
+    { "type": "intro", "duration": 1.5, "glow": "lime", "hook": "The test everyone [ignores.]" },
+    {
+      "type": "today", "duration": 6, "glow": "orange",
+      "kicker": "library · software & dev tools",
+      "headline": "The test everyone [ignores.]",
+      "card": {
+        "badge": "library · software & dev tools",
+        "meta": "ZS-0230 · Software & Dev Tools",
+        "title": "Ignored flaky test pipeline remediation",
+        "score": 75,
+        "bars": [
+          { "label": "sources human-verified in this case file", "value": 5, "color": "lime", "suffix": " of 6" },
+          { "label": "source flagged openly", "value": 1, "color": "orange", "suffix": " of 6" }
+        ],
+        "source": "Zerosolved case file · modeled from public data · verified 2026-08-13"
+      }
+    },
+    {
+      "type": "rows", "duration": 6.5, "glow": "both",
+      "kicker": "inside the case file · zs-0230",
+      "headline": "Case in [30 seconds.]",
+      "rows": [
+        { "icon": "users", "color": "orange", "label": "who bleeds", "text": "**Platform engineers and QA leads** at software companies with 50–250 developers." },
+        { "icon": "trending-down", "color": "orange", "label": "the bleed", "text": "Retries and quarantine **hide genuine regressions** and slow every deploy." },
+        { "icon": "search", "color": "white", "labelColor": "white", "label": "the gap", "text": "CI tools retry or tag. **None explain the race condition** behind the failure." },
+        { "icon": "lightbulb", "color": "lime", "label": "the window", "text": "**18–24 months** before CI providers build tracing into default runners." }
+      ]
+    },
+    {
+      "type": "list", "duration": 7, "glow": "lime",
+      "kicker": "for students · gen z",
+      "headline": "Turn this case into a [career project.]",
+      "items": [
+        { "icon": "graduation-cap", "color": "lime", "tag": "final-year project", "title": "Flaky test detector for Jest suites", "id": "ZS-0230" },
+        { "icon": "trophy", "color": "orange", "tag": "hackathon build", "title": "GitHub Action that flags race conditions", "id": "ZS-0230" },
+        { "icon": "flask-conical", "color": "violet", "tag": "research project", "title": "Why retries hide real regressions", "id": "ZS-0230" },
+        { "icon": "folder-open", "color": "sky", "tag": "portfolio project", "title": "Playwright flakiness report with fixes", "id": "ZS-0230" }
+      ],
+      "benefits": [
+        { "icon": "check", "color": "lime", "text": "A real-world problem" },
+        { "icon": "shield-check", "color": "orange", "text": "Graded sources to cite" },
+        { "icon": "folder-open", "color": "lime", "text": "Stronger portfolio" },
+        { "icon": "briefcase", "color": "orange", "text": "A story for interviews" }
+      ],
+      "footer": "you walk away with → **proof, not another clone.**"
+    },
+    {
+      "type": "cards", "duration": 7, "glow": "both",
+      "kicker": "for founders · businesses",
+      "headline": "A problem where platform teams [may pay] for answers.",
+      "cards": [
+        { "variant": "navy", "tag": "the wedge", "title": "A drop-in GitHub Action for Playwright and Jest", "sub": "Separates environment flakiness from code bugs.", "foot": "Software & Dev Tools · ZS-0230", "icon": "target" },
+        { "variant": "orange", "tag": "the catch", "title": "CI vendors may ship this natively", "sub": "Downgrade trigger printed in the case file.", "foot": "counter-evidence kept visible", "icon": "triangle-alert" },
+        { "variant": "light", "tag": "the buyer", "title": "Teams of 50–250 developers", "sub": "Platform engineers and engineering managers.", "foot": "modeled · verified 2026-08-13", "icon": "users" },
+        { "variant": "lime", "tag": "the evidence", "title": "6 sources, 5 verified", "sub": "1 flagged openly.", "foot": "verified 2026-08-13 · ZS-0230", "icon": "shield-check" }
+      ],
+      "footer": "the window: **18–24 months**"
+    },
+    {
+      "type": "end", "duration": 6, "glow": "lime",
+      "headline": "Stop guessing.\n[Start solving.]",
+      "sub": "Find your next [problem to solve.]\nFor students, founders & side-builders.",
+      "cta": "Explore Zerosolved.com →",
+      "stats": "971 case files · 18 categories · 9 modules · sources graded a–c"
+    }
+  ]
+}
