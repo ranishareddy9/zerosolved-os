@@ -1,0 +1,13 @@
+{
+  "id": "mr-2026-11-22-pm",
+  "type": "reel",
+  "kicker": "builder notes · pitch vs proof",
+  "title": "Two ways to build [lime]a strong base.[/lime]",
+  "lanes": [
+    { "label": "pitch first", "sub": "polishes the deck", "motion": "stall", "object": "pyramid", "color": "orange" },
+    { "label": "proof first", "sub": "gathers evidence", "motion": "steady", "object": "pyramid", "color": "lime" }
+  ],
+  "punchline": "[lime]Evidence[/lime] carries the pitch.",
+  "caption": "A polished deck on a guess stays stuck. Evidence of a real problem gives you a base to build on.\n\nStop guessing. Start solving.\nExplore Zerosolved.com →\n\n#buildinpublic #startupideas #founders #studentprojects #zerosolved",
+  "music": { "seed": 3307 }
+}

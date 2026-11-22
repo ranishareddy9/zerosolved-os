@@ -380,6 +380,27 @@
         "text": "You can't fix what you log as [lime]miscellaneous.[/lime]",
         "caption": "Generic downtime entries hide the root cause on the factory floor. Specific cause tracking is the gap. Case ZS-0939.\n\nStop guessing. Start solving.\nExplore Zerosolved.com →\n\n#buildinpublic #manufacturing #industrial #founders #zerosolved"
       }
+    },
+    {
+      "date": "2026-11-22",
+      "slot": "pm",
+      "mode": "motivational",
+      "reel": {
+        "id": "mr-2026-11-22-pm",
+        "left": "pitch first",
+        "right": "proof first",
+        "object": "pyramid",
+        "title": "Two ways to build [lime]a strong base.[/lime]",
+        "punchline": "[lime]Evidence[/lime] carries the pitch.",
+        "caption": "A polished deck on a guess stays stuck. Evidence of a real problem gives you a base to build on.\n\nStop guessing. Start solving.\nExplore Zerosolved.com →\n\n#buildinpublic #startupideas #founders #studentprojects #zerosolved"
+      },
+      "post": {
+        "id": "mp-2026-11-22-pm",
+        "variant": "equation",
+        "terms": "pain + facts = edge",
+        "line": "Find the pain. Bring the [lime]proof.[/lime]",
+        "caption": "A real pain plus real facts gives you an edge worth building on.\n\nStop guessing. Start solving.\nExplore Zerosolved.com →\n\n#buildinpublic #startupideas #founders #studentprojects #zerosolved"
+      }
     }
   ]
 }
