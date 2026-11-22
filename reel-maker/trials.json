@@ -72,6 +72,78 @@
         "uncommittedRuleChanges": false,
         "autoSkills": []
       }
+    },
+    {
+      "date": "2026-11-22",
+      "label": "catch-card plain trigger + ID in foot",
+      "id": "trial-zs-0547-2026-11-17",
+      "baseId": "zs-0547-2026-11-17",
+      "baseTotal": 29,
+      "scores": {
+        "hook": 4,
+        "one_idea": 4,
+        "density": 4,
+        "lime": 5,
+        "catch": 4,
+        "sources": 4,
+        "variety": 4
+      },
+      "total": 29,
+      "previewWarnings": [],
+      "failed": [],
+      "version": {
+        "commit": "01f43d6eac1c881989b2b40135c4c7bfc3177744",
+        "uncommittedRuleChanges": false,
+        "autoSkills": []
+      }
+    },
+    {
+      "date": "2026-11-22",
+      "label": "catch-card plain trigger + ID in foot",
+      "id": "trial-zs-0444-2026-11-13",
+      "baseId": "zs-0444-2026-11-13",
+      "baseTotal": 28,
+      "scores": {
+        "hook": 4,
+        "one_idea": 4,
+        "density": 4,
+        "lime": 5,
+        "catch": 4,
+        "sources": 3,
+        "variety": 4
+      },
+      "total": 28,
+      "previewWarnings": [],
+      "failed": [],
+      "version": {
+        "commit": "01f43d6eac1c881989b2b40135c4c7bfc3177744",
+        "uncommittedRuleChanges": false,
+        "autoSkills": []
+      }
+    },
+    {
+      "date": "2026-11-22",
+      "label": "catch-card plain trigger + ID in foot",
+      "id": "trial-zs-0270-2026-11-12",
+      "baseId": "zs-0270-2026-11-12",
+      "baseTotal": 27,
+      "scores": {
+        "hook": 4,
+        "one_idea": 4,
+        "density": 3,
+        "lime": 4,
+        "catch": 4,
+        "sources": 3,
+        "variety": 4
+      },
+      "total": 26,
+      "previewWarnings": [],
+      "failed": [],
+      "version": {
+        "commit": "01f43d6eac1c881989b2b40135c4c7bfc3177744",
+        "uncommittedRuleChanges": false,
+        "autoSkills": []
+      }
     }
   ]
 }
