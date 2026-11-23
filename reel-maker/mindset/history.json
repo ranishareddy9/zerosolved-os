@@ -422,6 +422,27 @@
         "text": "An outage solved twice is a [lime]memory[/lime] problem.",
         "caption": "Static postmortems leave teams without memory, so the same outage gets solved twice. Case ZS-0240.\n\nStop guessing. Start solving.\nExplore Zerosolved.com →\n\n#buildinpublic #devtools #sitereliability #founders #zerosolved"
       }
+    },
+    {
+      "date": "2026-11-23",
+      "slot": "pm",
+      "mode": "motivational",
+      "reel": {
+        "id": "mr-2026-11-23-pm",
+        "left": "blank page",
+        "right": "case file",
+        "object": "path",
+        "title": "Two ways to find [lime]your direction.[/lime]",
+        "punchline": "[lime]Direction[/lime] beats motivation.",
+        "caption": "Without a clear problem, motivation runs out fast. A case file gives you a direction to build toward.\n\nStop guessing. Start solving.\nExplore Zerosolved.com →\n\n#buildinpublic #startupideas #founders #studentprojects #zerosolved"
+      },
+      "post": {
+        "id": "mp-2026-11-23-pm",
+        "variant": "equation",
+        "terms": "features < focus",
+        "line": "Fix the one pain [lime]first.[/lime]",
+        "caption": "More features rarely beat one pain solved well. Pick the problem, then build.\n\nStop guessing. Start solving.\nExplore Zerosolved.com →\n\n#buildinpublic #startupideas #founders #studentprojects #zerosolved"
+      }
     }
   ]
 }

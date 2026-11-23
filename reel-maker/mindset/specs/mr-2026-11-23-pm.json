@@ -1,0 +1,13 @@
+{
+  "id": "mr-2026-11-23-pm",
+  "type": "reel",
+  "kicker": "builder notes · blank page vs case file",
+  "title": "Two ways to find [lime]your direction.[/lime]",
+  "lanes": [
+    { "label": "blank page", "sub": "waits for a spark", "motion": "idle", "object": "path", "color": "orange" },
+    { "label": "case file", "sub": "starts from pain", "motion": "steady", "object": "path", "color": "lime" }
+  ],
+  "punchline": "[lime]Direction[/lime] beats motivation.",
+  "caption": "Without a clear problem, motivation runs out fast. A case file gives you a direction to build toward.\n\nStop guessing. Start solving.\nExplore Zerosolved.com →\n\n#buildinpublic #startupideas #founders #studentprojects #zerosolved",
+  "music": { "seed": 4412 }
+}
