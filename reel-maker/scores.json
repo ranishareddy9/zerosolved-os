@@ -398,6 +398,32 @@
       },
       "notes": "Founders scene packs four cards and the catch card is easy to miss; sources are the case file plus verified date, not named external sources.",
       "scoredAt": "2026-11-22T14:41:53.271Z"
+    },
+    {
+      "date": "2026-11-23",
+      "id": "zs-0192-2026-11-23",
+      "caseId": "ZS-0192",
+      "leadAudience": "students",
+      "scores": {
+        "hook": 5,
+        "one_idea": 4,
+        "density": 4,
+        "lime": 3,
+        "catch": 4,
+        "sources": 3,
+        "variety": 4
+      },
+      "total": 27,
+      "max": 35,
+      "previewWarnings": [],
+      "failed": [],
+      "version": {
+        "commit": "b6172a96b8eb1c0c6577e44149421d54044aa09b",
+        "uncommittedRuleChanges": false,
+        "autoSkills": []
+      },
+      "notes": "Lime on 'need' in the founders headline is weak; the rows scene carries no source or year; the catch card sits in the last scene.",
+      "scoredAt": "2026-11-23T14:41:06.726Z"
     }
   ]
 }

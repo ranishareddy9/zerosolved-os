@@ -1,0 +1,76 @@
+{
+  "id": "zs-0192-2026-11-23",
+  "title": "Small exporter customs compliance maze",
+  "source": "https://zerosolved.com/problems/the-first-time-exporter-s-customs-maze (read 2026-11-23) — ZS-0192, verified 2026-08-13, 6 sources",
+  "palette": "lime-only",
+  "headerStat": "971 case files",
+  "music": { "bpm": 120, "seed": 192, "progression": ["Am","F","C","G"] },
+  "audienceOrder": "students first — the case names a buyer but prints no cost figure for the bleed, so the playbook's founders-first test is not met; the HS-code and invoice workflow is a clear tech project",
+  "scenes": [
+    { "type": "intro", "duration": 1.5, "glow": "lime" },
+    {
+      "type": "today", "duration": 6, "glow": "orange",
+      "kicker": "library · logistics & supply chain",
+      "headline": "The customs [maze.]",
+      "card": {
+        "badge": "library · logistics & supply chain",
+        "meta": "ZS-0192 · Logistics & Supply Chain",
+        "title": "Small exporter customs compliance maze",
+        "score": 68,
+        "bars": [
+          { "label": "of first-time cross-border consignments hit holds or rejection", "value": 35, "color": "orange", "suffix": "%+" },
+          { "label": "sources human-verified, 1 flagged openly", "value": 5, "color": "lime", "suffix": " of 6" }
+        ],
+        "source": "Zerosolved case file · modeled from public data · verified 2026-08-13"
+      }
+    },
+    {
+      "type": "rows", "duration": 6.5, "glow": "both",
+      "kicker": "inside the case file · zs-0192",
+      "headline": "Case in [30 seconds.]",
+      "rows": [
+        { "icon": "users", "color": "orange", "label": "who bleeds", "text": "**Founder-operators** at independent brands shipping a first B2B or palletised export order." },
+        { "icon": "triangle-alert", "color": "orange", "label": "the gap", "text": "Enterprise trade platforms cost **six figures** to set up. Carrier tools offer unverified HS code dropdowns." },
+        { "icon": "lightbulb", "color": "lime", "label": "the wedge", "text": "An **invoice and export pack generator** that verifies HS codes and origin rules." },
+        { "icon": "calendar", "color": "white", "labelColor": "white", "label": "the window", "text": "**24-36 months**, as EU ICS2 enforcement tightens." }
+      ]
+    },
+    {
+      "type": "list", "duration": 7, "glow": "lime",
+      "kicker": "for students · gen z",
+      "headline": "Turn this case into a [career project.]",
+      "items": [
+        { "icon": "graduation-cap", "color": "lime", "tag": "final-year project", "title": "HS code verifier for small exporters", "id": "ZS-0192" },
+        { "icon": "trophy", "color": "orange", "tag": "hackathon build", "title": "One-click commercial invoice pack", "id": "ZS-0192" },
+        { "icon": "flask-conical", "color": "violet", "tag": "research project", "title": "Why first shipments get held at the border", "id": "ZS-0192" },
+        { "icon": "folder-open", "color": "sky", "tag": "portfolio project", "title": "Your own export compliance checklist", "id": "ZS-0192" }
+      ],
+      "benefits": [
+        { "icon": "check", "color": "lime", "text": "A real-world problem" },
+        { "icon": "shield-check", "color": "orange", "text": "Graded sources to cite" },
+        { "icon": "folder-open", "color": "lime", "text": "Stronger portfolio" },
+        { "icon": "briefcase", "color": "orange", "text": "A story for interviews" }
+      ],
+      "footer": "you walk away with → **proof, not another clone.**"
+    },
+    {
+      "type": "cards", "duration": 7, "glow": "both",
+      "kicker": "for founders · businesses",
+      "headline": "A problem where exporters [need] a checked paper trail.",
+      "cards": [
+        { "variant": "navy", "tag": "the wedge", "title": "Export documents with verified HS codes", "sub": "Dual-use checks and origin rules, built in.", "foot": "Logistics & Supply Chain · ZS-0192", "icon": "target" },
+        { "variant": "orange", "tag": "the catch", "title": "Carrier platforms may absorb it", "sub": "Downgrade if clearance becomes a zero-fee add-on.", "foot": "counter-evidence kept visible", "icon": "triangle-alert" },
+        { "variant": "light", "tag": "the price point", "title": "Under $150/month", "sub": "The case file's price point for the wedge.", "foot": "modeled · verified 2026-08-13", "icon": "trending-down" },
+        { "variant": "lime", "tag": "the evidence", "title": "6 sources, 5 verified", "sub": "1 flagged openly.", "foot": "verified 2026-08-13 · ZS-0192", "icon": "shield-check" }
+      ],
+      "footer": "the window: **24-36 months**"
+    },
+    {
+      "type": "end", "duration": 6, "glow": "lime",
+      "headline": "Stop guessing.\n[Start solving.]",
+      "sub": "Find your next [problem to solve.]\nFor students, founders & side-builders.",
+      "cta": "Explore Zerosolved.com →",
+      "stats": "971 case files · 18 categories · 9 modules · sources graded a–c"
+    }
+  ]
+}
