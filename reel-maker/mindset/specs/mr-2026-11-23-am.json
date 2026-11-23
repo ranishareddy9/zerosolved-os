@@ -1,0 +1,16 @@
+{
+  "id": "mr-2026-11-23-am",
+  "type": "reel",
+  "case": "ZS-0240",
+  "sourceFile": "sources/mindset-zs-0240-2026-11-23.txt",
+  "footnote": "ZS-0240 · zero score 70 · verified 2026-08-13",
+  "kicker": "case file · software & dev tools",
+  "title": "Solved outages get re-solved [lime]from scratch.[/lime]",
+  "lanes": [
+    { "label": "on-call engineer", "sub": "re-investigates", "motion": "restart", "object": "ladder", "color": "orange" },
+    { "label": "history bot", "sub": "surfaces past fixes", "motion": "late", "object": "ladder", "color": "lime" }
+  ],
+  "punchline": "Surface the past fix. [lime]Skip the repeat.[/lime]",
+  "caption": "Postmortems sit in static documents, so on-call engineers re-investigate outages that were already solved. Surfacing the past fix is the gap. Case ZS-0240.\n\nStop guessing. Start solving.\nExplore Zerosolved.com →\n\n#buildinpublic #devtools #sitereliability #founders #zerosolved",
+  "music": { "seed": 2311 }
+}

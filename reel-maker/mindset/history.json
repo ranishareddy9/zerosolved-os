@@ -401,6 +401,27 @@
         "line": "Find the pain. Bring the [lime]proof.[/lime]",
         "caption": "A real pain plus real facts gives you an edge worth building on.\n\nStop guessing. Start solving.\nExplore Zerosolved.com →\n\n#buildinpublic #startupideas #founders #studentprojects #zerosolved"
       }
+    },
+    {
+      "date": "2026-11-23",
+      "slot": "am",
+      "mode": "case",
+      "case": "ZS-0240",
+      "reel": {
+        "id": "mr-2026-11-23-am",
+        "left": "on-call engineer",
+        "right": "history bot",
+        "object": "ladder",
+        "title": "Solved outages get re-solved [lime]from scratch.[/lime]",
+        "punchline": "Surface the past fix. [lime]Skip the repeat.[/lime]",
+        "caption": "Postmortems sit in static documents, so on-call engineers re-investigate outages that were already solved. Surfacing the past fix is the gap. Case ZS-0240.\n\nStop guessing. Start solving.\nExplore Zerosolved.com →\n\n#buildinpublic #devtools #sitereliability #founders #zerosolved"
+      },
+      "post": {
+        "id": "mp-2026-11-23-am",
+        "variant": "quote",
+        "text": "An outage solved twice is a [lime]memory[/lime] problem.",
+        "caption": "Static postmortems leave teams without memory, so the same outage gets solved twice. Case ZS-0240.\n\nStop guessing. Start solving.\nExplore Zerosolved.com →\n\n#buildinpublic #devtools #sitereliability #founders #zerosolved"
+      }
     }
   ]
 }

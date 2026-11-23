@@ -1,0 +1,11 @@
+{
+  "id": "mp-2026-11-23-am",
+  "type": "post",
+  "variant": "quote",
+  "case": "ZS-0240",
+  "sourceFile": "sources/mindset-zs-0240-2026-11-23.txt",
+  "footnote": "ZS-0240 · zero score 70 · verified 2026-08-13",
+  "kicker": "case file · software & dev tools",
+  "text": "An outage solved twice is a [lime]memory[/lime] problem.",
+  "caption": "Static postmortems leave teams without memory, so the same outage gets solved twice. Case ZS-0240.\n\nStop guessing. Start solving.\nExplore Zerosolved.com →\n\n#buildinpublic #devtools #sitereliability #founders #zerosolved"
+}
