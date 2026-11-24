@@ -1,0 +1,16 @@
+{
+  "id": "mr-2026-11-24-am",
+  "type": "reel",
+  "case": "ZS-0371",
+  "sourceFile": "sources/mindset-zs-0371-2026-11-24.txt",
+  "footnote": "ZS-0371 · zero score 75 · verified 2026-09-07",
+  "kicker": "case file · construction & trades",
+  "title": "Weather delays go [lime]undocumented.[/lime]",
+  "lanes": [
+    { "label": "project manager", "sub": "logs by hand", "motion": "stall", "object": "bricks", "color": "orange" },
+    { "label": "delay logger", "sub": "verifies each day", "motion": "steady", "object": "bricks", "color": "lime" }
+  ],
+  "punchline": "A verified log turns a dispute into [lime]a payment.[/lime]",
+  "caption": "Contractors absorb weather delays because manual records are inconsistent and easy to dispute. A verifiable delay log is the gap. Case ZS-0371.\n\nStop guessing. Start solving.\nExplore Zerosolved.com →\n\n#buildinpublic #construction #contech #founders #zerosolved",
+  "music": { "seed": 2411 }
+}

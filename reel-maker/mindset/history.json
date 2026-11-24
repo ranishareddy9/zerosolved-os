@@ -443,6 +443,27 @@
         "line": "Fix the one pain [lime]first.[/lime]",
         "caption": "More features rarely beat one pain solved well. Pick the problem, then build.\n\nStop guessing. Start solving.\nExplore Zerosolved.com →\n\n#buildinpublic #startupideas #founders #studentprojects #zerosolved"
       }
+    },
+    {
+      "date": "2026-11-24",
+      "slot": "am",
+      "mode": "case",
+      "case": "ZS-0371",
+      "reel": {
+        "id": "mr-2026-11-24-am",
+        "left": "project manager",
+        "right": "delay logger",
+        "object": "bricks",
+        "title": "Weather delays go [lime]undocumented.[/lime]",
+        "punchline": "A verified log turns a dispute into [lime]a payment.[/lime]",
+        "caption": "Contractors absorb weather delays because manual records are inconsistent and easy to dispute. A verifiable delay log is the gap. Case ZS-0371.\n\nStop guessing. Start solving.\nExplore Zerosolved.com →\n\n#buildinpublic #construction #contech #founders #zerosolved"
+      },
+      "post": {
+        "id": "mp-2026-11-24-am",
+        "variant": "quote",
+        "text": "A delay you can't prove is a delay you [lime]pay for.[/lime]",
+        "caption": "Weather delays that aren't verifiably documented get disputed, and contractors absorb the cost. Case ZS-0371.\n\nStop guessing. Start solving.\nExplore Zerosolved.com →\n\n#buildinpublic #construction #contech #founders #zerosolved"
+      }
     }
   ]
 }

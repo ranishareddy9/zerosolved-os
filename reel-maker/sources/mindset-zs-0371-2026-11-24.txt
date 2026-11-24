@@ -1,0 +1,49 @@
+SOURCE: https://zerosolved.com/problems/weather-delay-documentation
+FETCHED: 2026-11-24
+
+Construction Weather Delay Tracking — ZS-0371 | Zerosolved
+zerosolved The library Pricing FAQ
+01 · overview 1 / 9 zerosolved
+01 overview 02 problem strength 03 evidence 04 market 05 timing 06 customers 07 money & moat 08 playbook 09 live tracking ZS-0371 open · figures modeled from public data · every source graded in module 09 verified 2026-09-07 next check 2026-12-06 Home
+/
+Library
+/
+Construction & Trades
+/
+Construction Weather Delay Tracking
+Construction Weather Delay Tracking
+75
+zero score
+open · figures modeled from public data · every source graded in module 09 sample distribution in this preview 7 sources · 6✓ 1⚠
+module 01 of 09 · overview
+Overview
+The whole case on one page.
+General contractors and subcontractors suffer significant financial losses due to uncompensated weather delays, a problem that persists because current documentation methods are manual, inconsistent, and easily disputed. This leads to prolonged payment cycles and disputes, impacting cash flow for small and medium-sized businesses. Without a standardized, verifiable system, weather impact remains a source of friction and financial strain.
+researcher note · [modeled]
+A platform that automatically logs, verifies, and quantifies weather delays will reduce disputes and accelerate payments for construction projects.
+The case in 30 seconds
+who bleeds Project Managers (30-55) at small to medium-sized construction firms (5-50 employees), who are directly responsible for managing project schedules and costs, and bear the brunt of disputing and reconciling weather-related claims.
+what it costs $5,000 — average uncompensated cost per project due to weather delay disputes
+why now Increasing project complexity and tighter margins make efficient delay management more critical than ever.
+reachable market $45m — Estimated annual market size for weather delay documentation software
+strength 75 / 100
+the weak dial market scores 6 / 10
+What a chatbot can't tell you
+a chat answer this case file
+sources unnamed, unopened, undated ✓ 7 sources, 6 verified, 1 flagged openly
+figures confident round numbers ✓ every figure shown with its equation and a sensitivity test
+the weak spot omitted ✓ printed in module 02 — market scores 6 / 10
+Read this as a decision-grade starting point. Module 09 shows every source and how it was checked.
+← Previous Next module → Next · problem strength →
+living case file · continuously updated
+zerosolved The library
+Pricing
+FAQ
+Refund policy
+Terms & conditions
+Privacy
+Legal notice
+Contact
+After 6pm Founder
+secured by · · cards worldwide Zerosolved · Scratch Point AI Private Limited · India · Independent research for information only — verify before you build
+© 2026 Zerosolved · all case files verified by a human, one at a time
